@@ -50,7 +50,7 @@
                 <li>
                     <a href="#" class="link_news" title="最新消息">最新消息</a>
                 </li>
-                <li>
+                <li class="product">
                     <a href="#" class="link_products" title="產品資訊">產品資訊</a>
                     <ul class="submenu clearfix">
                         <li>

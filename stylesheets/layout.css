@@ -97,6 +97,25 @@ header.header {
         display: none; }
         header.header ul.nav_mainpage li ul.submenu.active {
           display: block; }
+    header.header ul.nav_mainpage li.product {
+      position: relative; }
+      header.header ul.nav_mainpage li.product ul {
+        width: 159px;
+        position: absolute;
+        box-shadow: -1px 2px 5px 2px #E4E4E4;
+        -webkit-box-shadow: -1px 2px 5px 2px #E4E4E4;
+        -moz-box-shadow: -1px 2px 5px 2px #E4E4E4;
+        -o-box-shadow: -1px 2px 5px 2px #E4E4E4;
+        background-color: white;
+        left: -29px;
+        top: 60px;
+        padding-bottom: 20px; }
+        header.header ul.nav_mainpage li.product ul li {
+          margin-left: 29px;
+          margin-top: 20px; }
+          header.header ul.nav_mainpage li.product ul li a {
+            font-size: 20px;
+            font-weight: bold; }
 
 footer {
   width: 100%;
