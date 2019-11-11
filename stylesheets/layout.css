@@ -92,7 +92,13 @@ header.header {
         display: block;
         color: #000000;
         font-weight: bold;
-        font-size: 24px; }
+        font-size: 24px;
+        border-bottom: 3px solid white;
+        padding-bottom: 8px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        header.header ul.nav_mainpage li a:hover {
+          border-bottom: 3px solid black; }
       header.header ul.nav_mainpage li ul.submenu {
         display: none; }
         header.header ul.nav_mainpage li ul.submenu.active {
@@ -108,7 +114,7 @@ header.header {
         -o-box-shadow: -1px 2px 5px 2px #E4E4E4;
         background-color: white;
         left: -29px;
-        top: 60px;
+        top: 35px;
         padding-bottom: 20px; }
         header.header ul.nav_mainpage li.product ul li {
           margin-left: 29px;

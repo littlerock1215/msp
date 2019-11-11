@@ -98,9 +98,9 @@
             color: black;
             text-align: center;
             margin-top: 62px; }
-    .panel .block2 ul.slider1, .panel .block2 ul.slider2, .panel .block2 ul.slider3, .panel .block2 ul.slider4 {
+    .panel .block2 ul.slick_content {
       display: none; }
-      .panel .block2 ul.slider1.active, .panel .block2 ul.slider2.active, .panel .block2 ul.slider3.active, .panel .block2 ul.slider4.active {
+      .panel .block2 ul.slick_content.active {
         display: block; }
   .panel .block3 {
     margin-top: 51px;

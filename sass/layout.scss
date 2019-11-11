@@ -62,6 +62,16 @@ header.header{
                 color: #000000;
                 font-weight: bold;
                 font-size: 24px;
+                border-bottom: 3px solid white;
+                padding-bottom: 8px;
+                box-sizing: border-box;
+                &:hover{
+                    border-bottom: 3px solid black; 
+                }
+            }
+
+            a.link_products{
+                //height:60px;
             }
             ul.submenu{
                 display:none;
@@ -81,7 +91,7 @@ header.header{
                 -o-box-shadow: -1px 2px 5px 2px #E4E4E4;
                 background-color: white;
                 left: -29px;
-                top: 60px;
+                top: 35px;
                 padding-bottom: 20px;
                 li{
                     margin-left: 29px;
