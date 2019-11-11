@@ -71,7 +71,7 @@
                     <a href="#" class="link_location" title="經銷據點">經銷據點</a>
                 </li>
                 <li>
-                    <a href="#" class="link_qa" title="Q＆A">Q＆A</a>
+                    <a href="https://laravel.com/docs/6.x/migrations#creating-tables" class="link_qa" title="Q＆A">Q＆A</a>
                 </li>
                 <li>
                     <a href="#" class="link_customer" title="客製化選色">客製化選色</a>
@@ -98,9 +98,9 @@
         });
 
         //按的時候預防跳開
-        $('ul.nav_mainpage>li>a').click(function(e){
-        e.preventDefault();
-        });
+        // $('ul.nav_mainpage>li>a').click(function(e){
+        // e.preventDefault();
+        // });
 
 });
 </script>
