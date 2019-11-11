@@ -13,6 +13,8 @@
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <link rel="stylesheet" href="slick/css/slick.css?<?=time()?>">
     <link rel="stylesheet" href="slick/css/slick-theme.css">
+    <link rel="stylesheet" href="/css/fontawesome5/all.css">
+
 
     
     <!-- <script type="text/javascript" src="/js/perfect-scrollbar.jquery.min.js"></script>
@@ -71,7 +73,7 @@
                     <a href="#" class="link_location" title="經銷據點">經銷據點</a>
                 </li>
                 <li>
-                    <a href="https://laravel.com/docs/6.x/migrations#creating-tables" class="link_qa" title="Q＆A">Q＆A</a>
+                    <a href="/qa" class="link_qa" title="Q＆A">Q＆A</a>
                 </li>
                 <li>
                     <a href="#" class="link_customer" title="客製化選色">客製化選色</a>

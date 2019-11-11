@@ -1,14 +1,15 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class QA extends MY_Controller {
+class QA extends CI_Controller {
 
     public function index()
     {
         $data = '';
         
-        $this->load->view('header',$data);
-        $this->load->view('q&a/panel',$data);
-        $this->load->view('footer',$data);
+        $this->load->view('layout/header',$data);
+        $this->load->view('qa/panel',$data);
+        $this->load->view('layout/footer',$data);
 
     }
 
