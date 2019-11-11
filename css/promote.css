@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.select_block {
+  width: 455px;
+  margin: auto; }
+  .select_block select {
+    background: url(../images/dropdown_icon.png) no-repeat;
+    background-size: 20px 11px;
+    background-position: 170px 12px;
+    display: inline-block;
+    font-family: "微軟正黑體", "Microsoft JhengHei", "Adobe 繁黑體 Std B", "儷黑 Pro";
+    color: #000000;
+    width: 209px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px 16px;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 13px;
+    font-size: 16px; }
+    .select_block select:focus {
+      outline: none; }
+
+.address_block ul {
+  margin-top: 75px; }
+  .address_block ul li {
+    position: relative;
+    float: left;
+    width: 440px; }
+    .address_block ul li iframe {
+      height: 288px;
+      border: solid 20px black;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    .address_block ul li p {
+      text-align: center;
+      float: none !important;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 18px; }
+  .address_block ul :nth-child(2n) {
+    float: right; }
+  .address_block ul :nth-child(n+3) {
+    margin-top: 55px; }

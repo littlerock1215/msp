@@ -117,7 +117,7 @@
 
 $(document).ready(function(){
 
-    $( ".click_item" ).click(function() {
+    $( '.click_item' ).click(function() {
         if($(".click_bitton").hasClass('open')){
             $(".click_bitton").removeClass('open');
             $(".click_item").closest('li').children('.answer').toggle();

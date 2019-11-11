@@ -70,7 +70,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="link_location" title="經銷據點">經銷據點</a>
+                    <a href="/promotebase" class="link_location" title="經銷據點">經銷據點</a>
                 </li>
                 <li>
                     <a href="/qa" class="link_qa" title="Q＆A">Q＆A</a>
