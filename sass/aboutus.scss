@@ -1,0 +1,23 @@
+.subtitle_block{
+    margin:0 auto;
+    width:1280px;
+    height: 258px;
+    background: url(../images/img-bg-about@3x.png) no-repeat;
+    background-size: 1280px auto;
+    background-position: 0 0px;
+    a{
+        display:inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        color:white;
+        margin-top: 26px;
+        &:first-child{
+            margin-left: 52px;
+        }
+    }
+    span{
+        display: inline-block;
+        color: white;
+        margin: 0 4px;
+    }
+}
