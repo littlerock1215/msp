@@ -1,21 +1,19 @@
 .subtitle_block {
   margin: 0 auto;
   width: 1280px;
-  height: 258px;
-  background: url(../images/img-bg-about@3x.png) no-repeat;
-  background-size: 1280px auto;
-  background-position: 0 0px; }
+  height: 112px;
+  background-color: rgba(230, 230, 230, 0.5); }
   .subtitle_block a {
     display: inline-block;
     text-decoration: none;
     font-size: 16px;
-    color: white;
+    color: black;
     margin-top: 26px; }
     .subtitle_block a:first-child {
       margin-left: 52px; }
   .subtitle_block span {
     display: inline-block;
-    color: white;
+    color: black;
     margin: 0 4px; }
   .subtitle_block h1 {
     width: 249px;
@@ -26,7 +24,7 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: 2px;
-    color: white;
+    color: black;
     margin-top: 45px;
     margin-left: 225px; }
 
