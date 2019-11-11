@@ -1,36 +1,39 @@
 .panel {
   margin: 0 auto; }
-  .panel .block1 .block1_logo {
-    width: 358px;
-    height: 90px;
-    margin-right: 107px;
-    float: right;
-    background: url(../images/img-logo@3x.png) no-repeat;
-    background-size: 358px 90px;
-    background-position: 0px 0; }
-  .panel .block1 .block1_leftside {
-    float: left;
-    margin-top: 130px;
-    background: url(../images/img-bg-homepage@3x.png) no-repeat;
-    background-size: 680px 330px;
-    background-position: 0px 0;
-    width: 680px;
-    height: 330px; }
-  .panel .block1 .block1_rightside {
-    float: right;
-    margin-top: 127px;
-    margin-right: 50px;
-    background: url(../images/img-bg-homepage-2@3x.png) no-repeat;
-    background-size: 453px 460px;
-    background-position: 0px 0;
-    width: 453px;
-    height: 460px; }
-    .panel .block1 .block1_rightside .block1_content {
-      width: 515px;
-      font-size: 20px;
-      margin-top: 308px;
-      margin-left: -406px;
-      line-height: 24px; }
+  .panel .block1 {
+    margin: 0 auto;
+    width: 1280px; }
+    .panel .block1 .block1_logo {
+      width: 358px;
+      height: 90px;
+      margin-right: 107px;
+      float: right;
+      background: url(../images/img-logo@3x.png) no-repeat;
+      background-size: 358px 90px;
+      background-position: 0px 0; }
+    .panel .block1 .block1_leftside {
+      float: left;
+      margin-top: 130px;
+      background: url(../images/img-bg-homepage@3x.png) no-repeat;
+      background-size: 680px 330px;
+      background-position: 0px 0;
+      width: 680px;
+      height: 330px; }
+    .panel .block1 .block1_rightside {
+      float: right;
+      margin-top: 127px;
+      margin-right: 50px;
+      background: url(../images/img-bg-homepage-2@3x.png) no-repeat;
+      background-size: 453px 460px;
+      background-position: 0px 0;
+      width: 453px;
+      height: 460px; }
+      .panel .block1 .block1_rightside .block1_content {
+        width: 515px;
+        font-size: 20px;
+        margin-top: 308px;
+        margin-left: -406px;
+        line-height: 26px; }
   .panel .block2 {
     background: url(../images/block2_bg.png) no-repeat;
     background-size: 1280px 676px;
