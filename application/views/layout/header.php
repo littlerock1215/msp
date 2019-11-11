@@ -47,10 +47,10 @@
             <br>
             <ul  class="nav_mainpage clearfix">
                 <li>
-                    <a href="#" class="link_about" title="關於我們">關於我們</a>
+                    <a href="/aboutus" class="link_about" title="關於我們">關於我們</a>
                 </li>
                 <li>
-                    <a href="#" class="link_news" title="最新消息">最新消息</a>
+                    <a href="/news" class="link_news" title="最新消息">最新消息</a>
                 </li>
                 <li class="product">
                     <a href="#" class="link_products" title="產品資訊">產品資訊</a>
