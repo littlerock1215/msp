@@ -10,14 +10,16 @@
     -o-box-shadow: -1px 2px 5px 2px #E4E4E4;
 }
 header.header{
-    width:1200px;
+    //width:1200px;
     height:105px;
     margin:0 auto;
     padding:15px 50px 29px 50px;
     position: relative;
     box-sizing: border-box;
+    max-width: 1280px;
+    width:100%;
 
-    @include susy-breakpoint($desktop-x){
+    @include susy-breakpoint($small_desktop-x){
         display: none;
     }
 
@@ -115,23 +117,31 @@ footer{
     height:225px;
     background-color: #e6e6e6;
 
-    @include susy-breakpoint($desktop-x){
-        display: none;
-    }
+    // @include susy-breakpoint($small_desktop-x){
+    //     display: none;
+    // }
 
     .footer_block{
-        width:1200px;
+        //width:1200px;
         margin: 0 auto;
         height: 100%;
         box-sizing: border-box;
         padding: 45px 50px 25px;
         position: relative;
+        max-width: 1280px;
+        width: 100%;
         ul.footer_infor{
             width: 714px;
             margin-bottom: 40px;
+            @include susy-breakpoint($desktop-x){
+                width: 150px;
+            }
             li{
                 display: inline-block;
                 float: left;
+                @include susy-breakpoint($desktop-x){
+                    display:block;
+                }
                 a{
                     text-decoration: none;
                     display: block;
@@ -212,6 +222,11 @@ footer{
             font-size: 60px;
             margin-left: 225px;
             margin-top: 35px;
+            @include susy-breakpoint($small_screen){
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 60px;
+            }
             }
         a{
             display:inline-block;
@@ -221,6 +236,9 @@ footer{
             margin-top: 26px;
             &:first-child{
                 margin-left: 52px;
+            }
+            @include susy-breakpoint($small_screen){
+                font-size: 12px;
             }
         }
         span{

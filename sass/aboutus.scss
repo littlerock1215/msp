@@ -1,10 +1,20 @@
+@import "base";
 .subtitle_block{
     margin:0 auto;
-    width:1280px;
+    //width:1280px;
     height: 258px;
     background: url(../images/img-bg-about@3x.png) no-repeat;
     background-size: 1280px auto;
     background-position: 0 0px;
+    max-width: 1280px;
+    width:100%;
+    @include susy-breakpoint($desktop-min-width-x){
+        background-size:100% auto;
+    }
+    @include susy-breakpoint($small_desktop-x){
+        height: auto;
+        margin-bottom: 25px;
+    }
     a{
         display:inline-block;
         text-decoration: none;
@@ -13,6 +23,9 @@
         margin-top: 26px;
         &:first-child{
             margin-left: 52px;
+        }
+        @include susy-breakpoint($small_screen){
+            font-size: 12px;
         }
     }
     span{
@@ -33,18 +46,38 @@
         color: white;
         margin-top: 45px;
         margin-left: 225px;
+        @include susy-breakpoint($small_desktop-x){
+            font-size: 24px;
+            margin-top: 26px;
+        }
+        @include susy-breakpoint($small_screen){
+            margin-top: 0px;
+            margin-left: auto;
+            text-align: center;
+            width: auto;
+        }
     }
 }
 .content_block{
     width: 792px;
     font-size: 24px;
     margin:65px auto 27px;
+    @include susy-breakpoint($small_desktop-x){
+        width: 90%;
+        margin: 0px auto 27px;
+    }
     p{
         line-height: normal;
+        @include susy-breakpoint($small_desktop-x){
+            font-size:16px;
+        }
     }
     img{
         width:792px;
         height:auto;
         margin:27px auto 140px;
+        @include susy-breakpoint($small_desktop-x){
+            width:100%;
+        }
     }
 }

@@ -6,6 +6,9 @@
         </div>
         <div class="block1_leftside">
         </div>
+        <div class="block1_leftside_phone">
+            <h3 class="block1_content_phone">初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器，導入多項測試儀器以利協助發，多年來本公司所研發生產之MD-R系列避震系統，獲得國內外廣大消費群的支持與信賴</h3>
+        </div>
         <div class="block1_rightside">
             <h3 class="block1_content">初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器，導入多項測試儀器以利協助發，多年來本公司所研發生產之MD-R系列避震系統，獲得國內外廣大消費群的支持與信賴</h3>
         </div>
@@ -320,6 +323,8 @@ $(document).ready(function(){
     // })
 
     //slider function
+    var _window_width=window.innerWidth;   
+
     $('ul.product1').slick({
         dots: false,
         infinite: true,
@@ -331,7 +336,14 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2000
+
+        // if(_window_width>=530){
+        //     slidesToShow: 4,
+
+        //     }else{
+        //         slidesToShow: 3,
+        // }
     });
 
     $('ul.product2').slick({

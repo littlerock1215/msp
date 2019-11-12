@@ -49,14 +49,15 @@ table {
   -o-box-shadow: -1px 2px 5px 2px #E4E4E4; }
 
 header.header {
-  width: 1200px;
   height: 105px;
   margin: 0 auto;
   padding: 15px 50px 29px 50px;
   position: relative;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-  @media (max-width: 1139px) {
+  box-sizing: border-box;
+  max-width: 1280px;
+  width: 100%; }
+  @media (max-width: 1024px) {
     header.header {
       display: none; } }
   header.header a.logo {
@@ -130,23 +131,27 @@ footer {
   width: 100%;
   height: 225px;
   background-color: #e6e6e6; }
-  @media (max-width: 1139px) {
-    footer {
-      display: none; } }
   footer .footer_block {
-    width: 1200px;
     margin: 0 auto;
     height: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 45px 50px 25px;
-    position: relative; }
+    position: relative;
+    max-width: 1280px;
+    width: 100%; }
     footer .footer_block ul.footer_infor {
       width: 714px;
       margin-bottom: 40px; }
+      @media (max-width: 1139px) {
+        footer .footer_block ul.footer_infor {
+          width: 150px; } }
       footer .footer_block ul.footer_infor li {
         display: inline-block;
         float: left; }
+        @media (max-width: 1139px) {
+          footer .footer_block ul.footer_infor li {
+            display: block; } }
         footer .footer_block ul.footer_infor li a {
           text-decoration: none;
           display: block;
@@ -209,6 +214,11 @@ footer {
       font-size: 60px;
       margin-left: 225px;
       margin-top: 35px; }
+      @media (max-width: 530px) {
+        .title_block .content_title .page_title {
+          font-size: 24px;
+          font-weight: bold;
+          margin-top: 60px; } }
     .title_block .content_title a {
       display: inline-block;
       text-decoration: none;
@@ -217,6 +227,9 @@ footer {
       margin-top: 26px; }
       .title_block .content_title a:first-child {
         margin-left: 52px; }
+      @media (max-width: 530px) {
+        .title_block .content_title a {
+          font-size: 12px; } }
     .title_block .content_title span {
       display: inline-block;
       color: #858585;
