@@ -1,14 +1,14 @@
-.left_block {
+.qa_block .left_block {
   float: left;
   width: 265px; }
-  .left_block ul li {
+  .qa_block .left_block ul li {
     margin-top: 10px; }
-    .left_block ul li i {
+    .qa_block .left_block ul li i {
       position: absolute;
       font-size: 40px;
       top: 17px;
       right: 25px; }
-    .left_block ul li a {
+    .qa_block .left_block ul li a {
       display: block;
       background-color: #e6e6e6;
       font-size: 20px;
@@ -19,25 +19,25 @@
       padding: 25px 15px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
-      .left_block ul li a.active, .left_block ul li a:hover {
+      .qa_block .left_block ul li a.active, .qa_block .left_block ul li a:hover {
         background-color: black;
         color: white; }
 
-.right_block {
+.qa_block .right_block {
   width: 640px;
   float: left;
   margin-left: 86px;
   margin-top: 26px; }
-  .right_block ul li {
+  .qa_block .right_block ul li {
     position: relative;
     cursor: pointer;
     margin-top: 30px; }
-    .right_block ul li .question {
+    .qa_block .right_block ul li .question {
       font-size: 20px;
       font-weight: bold;
       border-bottom: solid 1px;
       padding-bottom: 15px; }
-    .right_block ul li button {
+    .qa_block .right_block ul li button {
       background-image: url(../images/icon-qa-collapse.png);
       position: absolute;
       right: 0px;
@@ -46,15 +46,44 @@
       border: none;
       background-color: white;
       outline: none; }
-      .right_block ul li button.open {
+      .qa_block .right_block ul li button.open {
         background-image: url(../images/icon-qa-expand.png);
         background-size: cover;
         height: 20px;
         top: 0px; }
-    .right_block ul li .answer {
+    .qa_block .right_block ul li .answer {
       margin-top: 15px;
       font-size: 18px;
       line-height: 20px;
       display: none; }
-  .right_block ul :nth-child(1) {
+  .qa_block .right_block ul :nth-child(1) {
     margin-top: 0px; }
+
+@media (max-width: 1139px) {
+  .qa_block {
+    display: none; } }
+
+.mobile_qa_block {
+  display: none; }
+  @media (max-width: 1139px) {
+    .mobile_qa_block {
+      display: block; } }
+  .mobile_qa_block ul li {
+    position: relative;
+    margin-top: 10px; }
+    .mobile_qa_block ul li a {
+      display: block;
+      background-color: #e6e6e6;
+      font-size: 20px;
+      position: relative;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 25px 15px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .mobile_qa_block ul li a i {
+        position: absolute;
+        font-size: 40px;
+        top: 17px;
+        right: 25px; }
