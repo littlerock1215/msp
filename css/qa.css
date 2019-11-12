@@ -38,19 +38,20 @@
       border-bottom: solid 1px;
       padding-bottom: 15px; }
     .qa_block .right_block ul li button {
-      background-image: url(../images/icon-qa-collapse.png);
+      background-image: url(../images/icon-qa-expand.png);
       position: absolute;
-      right: 0px;
-      top: 10px;
+      background-size: cover;
+      height: 20px;
+      top: 0px;
       width: 20px;
-      border: none;
+      right: 10px;
       background-color: white;
-      outline: none; }
+      outline: none;
+      border: none; }
       .qa_block .right_block ul li button.open {
-        background-image: url(../images/icon-qa-expand.png);
-        background-size: cover;
-        height: 20px;
-        top: 0px; }
+        background-image: url(../images/icon-qa-collapse.png);
+        top: 10px;
+        height: auto; }
     .qa_block .right_block ul li .answer {
       margin-top: 15px;
       font-size: 18px;
@@ -68,22 +69,53 @@
   @media (max-width: 1139px) {
     .mobile_qa_block {
       display: block; } }
-  .mobile_qa_block ul li {
-    position: relative;
-    margin-top: 10px; }
-    .mobile_qa_block ul li a {
-      display: block;
-      background-color: #e6e6e6;
-      font-size: 20px;
+  .mobile_qa_block ul {
+    margin-bottom: 25px; }
+    .mobile_qa_block ul li {
       position: relative;
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      padding: 25px 15px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box; }
-      .mobile_qa_block ul li a i {
-        position: absolute;
-        font-size: 40px;
-        top: 17px;
-        right: 25px; }
+      margin-top: 10px; }
+      .mobile_qa_block ul li a {
+        display: block;
+        background-color: #e6e6e6;
+        font-size: 20px;
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 25px 15px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .mobile_qa_block ul li a i {
+          position: absolute;
+          font-size: 40px;
+          top: 17px;
+          right: 25px; }
+      .mobile_qa_block ul li ul li {
+        position: relative;
+        cursor: pointer;
+        margin-top: 30px; }
+        .mobile_qa_block ul li ul li .question {
+          font-size: 16px;
+          font-weight: bold;
+          border-bottom: solid 1px;
+          padding-bottom: 15px; }
+        .mobile_qa_block ul li ul li button {
+          background-image: url(../images/icon-qa-expand.png);
+          position: absolute;
+          background-size: cover;
+          height: 20px;
+          top: 0px;
+          width: 20px;
+          right: 10px;
+          background-color: white;
+          outline: none;
+          border: none; }
+          .mobile_qa_block ul li ul li button.open {
+            background-image: url(../images/icon-qa-collapse.png);
+            top: 10px;
+            height: auto; }
+        .mobile_qa_block ul li ul li .answer {
+          margin-top: 15px;
+          font-size: 18px;
+          line-height: 20px;
+          display: none; }

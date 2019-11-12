@@ -201,18 +201,34 @@ footer{
     width: 100%;
     height: 112px;
     background-color: rgba(230, 230, 230, 0.5);
+    @include susy-breakpoint($desktop-x){
+        height: 57px;
+    }
 
     .content_title{
         width: 1000px;
         margin: 0 auto;
         @include susy-breakpoint($desktop-x){
+            padding: 15px;
+            padding-top: 10px;
+            padding-bottom: 0px;
             width: 100%;
+            box-sizing: border-box;
         }
+
         .page_title{
             font-size: 60px;
             margin-left: 225px;
             margin-top: 35px;
+
+            @include susy-breakpoint($desktop-x){
+                box-sizing: border-box;
+                margin-left: 0px;
+                margin-top: 20px;
+                text-align: center;
+                font-size: 24px;
             }
+        }
         a{
             display:inline-block;
             text-decoration: none;
@@ -221,6 +237,15 @@ footer{
             margin-top: 26px;
             &:first-child{
                 margin-left: 52px;
+
+                @include susy-breakpoint($desktop-x){
+                    margin-left: 0px;
+                }
+            }
+
+            @include susy-breakpoint($desktop-x){
+                margin-top: 0px;
+                font-size: 12px;
             }
         }
         span{
