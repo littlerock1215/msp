@@ -16,6 +16,11 @@ header.header{
     padding:15px 50px 29px 50px;
     position: relative;
     box-sizing: border-box;
+
+    @include susy-breakpoint($desktop-x){
+        display: none;
+    }
+
     a.logo{
         position: absolute;
         top: 41px;
@@ -109,6 +114,11 @@ footer{
     width: 100%;
     height:225px;
     background-color: #e6e6e6;
+
+    @include susy-breakpoint($desktop-x){
+        display: none;
+    }
+
     .footer_block{
         width:1200px;
         margin: 0 auto;
@@ -195,6 +205,9 @@ footer{
     .content_title{
         width: 1000px;
         margin: 0 auto;
+        @include susy-breakpoint($desktop-x){
+            width: 100%;
+        }
         .page_title{
             font-size: 60px;
             margin-left: 225px;
@@ -225,4 +238,13 @@ footer{
     padding: 50px;
     padding-top: 105px;
     padding-bottom: 140px;
+
+    @include susy-breakpoint($desktop-x){
+        width: 100%;
+        padding: 15px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+
 }

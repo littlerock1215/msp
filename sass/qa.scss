@@ -1,3 +1,6 @@
+@import "base";
+
+.qa_block{
 
     .left_block{
         float: left;
@@ -31,11 +34,8 @@
     
                 }
 
-                
-
             }
 
-            
         }
     }
 
@@ -95,3 +95,55 @@
        
         
     }
+
+    @include susy-breakpoint($desktop-x){
+        display: none;
+    }
+
+}
+
+
+.mobile_qa_block{
+    display: none;
+
+    @include susy-breakpoint($desktop-x){
+        display: block;
+    }
+
+    ul{
+
+        li{
+            position: relative;
+            margin-top: 10px;
+
+            a{
+                display: block;
+                background-color: #e6e6e6;
+                font-size: 20px;
+                position: relative;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                padding: 25px 15px;
+                box-sizing: border-box;
+                
+                &.active, &:hover{
+                    // background-color: black;
+                    // color: white;
+                }
+
+                i{
+                    position: absolute;
+                    font-size: 40px;
+                    top: 17px;
+                    right: 25px;
+                }
+
+            }
+
+        }
+
+
+    }
+
+}
