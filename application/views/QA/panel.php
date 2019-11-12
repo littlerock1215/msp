@@ -158,7 +158,6 @@ $(document).ready(function(){
         if(!$(this).hasClass('active')){
             //if not active
 
-            
             $(this).children('.mobile_fal').removeClass('fa-angle-right').addClass('fa-angle-up');
             $('.menu a.active').removeClass('active');
 
