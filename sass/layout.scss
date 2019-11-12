@@ -230,21 +230,14 @@ footer{
             font-size: 60px;
             margin-left: 225px;
             margin-top: 35px;
-<<<<<<< HEAD
-            @include susy-breakpoint($small_screen){
-                font-size: 24px;
-                font-weight: bold;
-                margin-top: 60px;
-            }
-=======
 
             @include susy-breakpoint($desktop-x){
+                font-weight: bold;
                 box-sizing: border-box;
                 margin-left: 0px;
                 margin-top: 20px;
                 text-align: center;
                 font-size: 24px;
->>>>>>> 09fbf8d8cf762b5d949d00ebdf65b6d24b8ae3ee
             }
         }
         a{
