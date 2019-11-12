@@ -9,7 +9,7 @@
 
 <div class="container_block">
     <div class="select_block">
-            <select name="" id="" style="margin-right:30px;">
+            <select name="" id="city_select" >
                 <option value="">請選擇縣市</option>
                 <option value="">1</option>
                 <option value="">2</option>

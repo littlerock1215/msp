@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .select_block {
-  width: 455px;
-  margin: auto; }
+  text-align: center; }
   .select_block select {
     background: url(../images/dropdown_icon.png) no-repeat;
     background-size: 20px 11px;
@@ -24,13 +23,29 @@
     font-size: 16px; }
     .select_block select:focus {
       outline: none; }
+  .select_block #city_select {
+    margin-right: 25px; }
+    @media (max-width: 530px) {
+      .select_block #city_select {
+        margin-right: 0px; } }
 
 .address_block ul {
   margin-top: 75px; }
+  @media (max-width: 1139px) {
+    .address_block ul {
+      margin-top: 40px;
+      padding: 30px;
+      padding-top: 0px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; } }
   .address_block ul li {
     position: relative;
     float: left;
     width: 440px; }
+    @media (max-width: 1024px) {
+      .address_block ul li {
+        float: none;
+        width: 100%; } }
     .address_block ul li iframe {
       height: 288px;
       border: solid 20px black;
@@ -42,6 +57,12 @@
       font-size: 20px;
       line-height: 25px;
       margin-top: 18px; }
+      @media (max-width: 1024px) {
+        .address_block ul li p {
+          font-size: 16px;
+          line-height: 20px;
+          margin-top: 10px;
+          margin-bottom: 40px; } }
   .address_block ul :nth-child(2n) {
     float: right; }
   .address_block ul :nth-child(n+3) {
