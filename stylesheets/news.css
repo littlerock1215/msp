@@ -32,9 +32,50 @@
   width: 792px;
   font-size: 24px;
   margin: 65px auto 27px; }
+  @media (max-width: 1024px) {
+    .content_block {
+      width: 90%; } }
   .content_block p {
     line-height: normal; }
   .content_block img {
     width: 792px;
     height: auto;
     margin: 27px auto 140px; }
+  .content_block ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 19px 0;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 1px solid black; }
+    @media (max-width: 530px) {
+      .content_block ul li a {
+        font-size: 16px; } }
+    .content_block ul li a:hover {
+      border-bottom: 2px solid black;
+      padding: 19px 0 18px; }
+      .content_block ul li a:hover span.news_arrow {
+        display: block; }
+    .content_block ul li a span.content_title {
+      margin-left: 80px;
+      font-size: 20px;
+      font-weight: normal; }
+      @media (max-width: 767px) {
+        .content_block ul li a span.content_title {
+          margin-left: 30px; } }
+      @media (max-width: 530px) {
+        .content_block ul li a span.content_title {
+          font-size: 16px; } }
+    .content_block ul li a span.news_arrow {
+      display: none;
+      background: url(../images/icon-move-s@2x.png) no-repeat;
+      background-size: 10px 20px;
+      background-position: 0px 0;
+      width: 10px;
+      height: 20px;
+      position: absolute;
+      top: 19px;
+      right: 10px; }

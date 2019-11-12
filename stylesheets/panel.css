@@ -42,7 +42,7 @@
     height: 676px;
     margin: 0 auto; }
     .panel .block2 ul.slick_title {
-      width: 586px;
+      width: 520px;
       margin: 0 auto;
       padding-top: 50px;
       padding-bottom: 39px; }
@@ -57,7 +57,7 @@
           color: #000000;
           padding-bottom: 7px;
           border-bottom: 2px solid #efefef;
-          font-size: 24px;
+          font-size: 20px;
           letter-spacing: 1px; }
           .panel .block2 ul.slick_title li a:hover {
             border-bottom: 2px solid #000000; }
