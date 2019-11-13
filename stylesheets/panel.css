@@ -82,10 +82,11 @@
     max-width: 1280px;
     width: 100%;
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 15px;
+    width: auto;
+    max-width: 1280px; }
     @media (max-width: 1024px) {
       .panel .block2 {
-        width: 100%;
         background-size: cover; } }
     .panel .block2 ul.slick_title {
       width: 520px;

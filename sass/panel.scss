@@ -95,8 +95,10 @@
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+        width: auto;
+        max-width: 1280px;
         @include susy-breakpoint($small_desktop-x){
-            width:100%;
+            //width:100%;
             background-size: cover;
         }
         ul.slick_title{
