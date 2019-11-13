@@ -17,8 +17,8 @@
 
 
     
-    <!-- <script type="text/javascript" src="/js/perfect-scrollbar.jquery.min.js"></script>
-    <script src="/js/default.js?<?=time()?>" type="text/javascript"></script> -->
+    <script type="text/javascript" src="/js/perfect-scrollbar.jquery.min.js"></script>
+    <!-- <script src="/js/default.js?<?=time()?>" type="text/javascript"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
@@ -33,13 +33,13 @@
         <header class="header clearfix">
             <a href="#" class="logo" title="MSP"></a>
             <!-- <button type="button" id="BackTop" class="top"></button> -->
-            <!-- <a href="/" class="main_menu_hamburger" title="手機選單">
+            <a href="/" class="main_menu_hamburger" title="手機選單">
                 <div class="in">
                     <span class= line1></span>
                     <span class= line2></span>
                     <span class= line3></span>
                 </div>
-            </a> -->
+            </a>
             <div class="language">
                 <a href="#" class="chinese active">繁體中文 </a>
                 <a href="#" class="english">English</a>
@@ -84,25 +84,89 @@
 
 <script>
     $(document).ready(function(){
-
         var lastScrollTop = 0;
         var lastWindowWidth = window.innerWidth;
 
         $('ul.nav_mainpage>li').mouseenter(function(){
 
-        if(window.innerWidth>=1023){
+        // if(window.innerWidth>=1023){
+        //     $(this).find('ul').stop(true,true).addClass('active');
+        // }
+        // }).mouseleave(function(){
+        // if(window.innerWidth>=1023){
+        //     $(this).find('ul').stop(true,true).removeClass('active');
+        // }
+        // });
             $(this).find('ul').stop(true,true).addClass('active');
-        }
         }).mouseleave(function(){
-        if(window.innerWidth>=1023){
             $(this).find('ul').stop(true,true).removeClass('active');
-        }
         });
 
         //按的時候預防跳開
         // $('ul.nav_mainpage>li>a').click(function(e){
         // e.preventDefault();
         // });
+
+        //below is for the change of the width of the screen function//
+
+    var lastWindowWidth = window.innerWidth;
+
+    $(window).resize(function(){
+        var _window_width=window.innerWidth;   
+        if(lastWindowWidth != _window_width){
+            
+            if(_window_width>=1024){
+            $('body').removeClass('open');
+            $('.main_menu_hamburger').removeClass('active');
+            //$('.nav_mainpage').show();
+            $('.nav_mainpage').removeClass('active');
+            $('.nav_mainpage').perfectScrollbar('destroy');
+
+            }else{
+            $('body').removeClass('open');
+            $('.main_menu_hamburger').removeClass('active');
+            //$('.nav_mainpage').hide();
+            $('.nav_mainpage').removeClass('active');
+            $('.nav_mainpage').perfectScrollbar('destroy');
+            }
+            
+            lastWindowWidth = _window_width;
+        }
+    });
+
+    //below is the menu display function in the phone type
+    $('.main_menu_hamburger').click(function(e){
+        e.preventDefault();
+        var el = $(this);
+
+        if(el.hasClass('active')){
+            
+            el.removeClass('active');
+            $('body').removeClass('open');
+            $('.nav_mainpage').removeClass('active');
+            $('.nav_mainpage').perfectScrollbar('destroy');
+          
+        }else{
+            el.addClass('active');
+            $('body').addClass('open');
+            $('.nav_mainpage').addClass('active');
+            setTimeout(function(){
+            $('.nav_mainpage').perfectScrollbar({suppressScrollX:true,includePadding:true});
+            },300); 
+        }
+    });
+
+    //below is the nav_mainpage click function in hamburger style
+    $('.nav_mainpage>li>a').click(function(e){
+
+        if($('.nav_mainpage').hasClass('active')){
+        $('body').removeClass('open');
+        $('.main_menu_hamburger').removeClass('active');
+        //$('.nav_mainpage').show();
+        $('.nav_mainpage').removeClass('active');
+        //$('.nav_mainpage').perfectScrollbar('destroy');
+        }
+    });
 
 });
 </script>
