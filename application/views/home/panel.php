@@ -1,5 +1,6 @@
 <link type="text/css" rel="stylesheet" href="stylesheets/panel.css?<?=time()?>">
 
+
 <div class="panel">
     <div class="block1 clearfix">
         <div class="block1_logo">

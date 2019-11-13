@@ -97,6 +97,9 @@
         padding-right: 15px;
         width: auto;
         max-width: 1280px;
+        @include susy-breakpoint($pad-x){
+            height:500px;
+        }
         @include susy-breakpoint($small_desktop-x){
             //width:100%;
             background-size: cover;
@@ -123,7 +126,7 @@
                     text-decoration: none;
                     color:#000000;
                     padding-bottom:7px;
-                    border-bottom:2px solid #efefef;
+                    border-bottom: 2px solid rgba(255,255,255,0);
                     font-size: 20px;
                     letter-spacing: 1px;
                     &:hover{
@@ -145,13 +148,28 @@
             // @include susy-breakpoint($small_desktop-x){
             //     width:100%;
             // }
+            .slick-prev,.slick-next{
+                background-image: url(../images/icon_move.png);
+                height: 68px;
+                width: 18px;
+                background-size: cover;
+                &::before{
+                    color: transparent;
+                }
+            }
+            .slick-next{
+                background-image: url(../images/icon_move_next.png);
+            }
+
             li{
-                width:230px;
+                //width:230px;
+                width: auto!important;
                 height:497px;
                 display:inline-block;
                 //background-color: white;
-                margin-left: 25px;
+                //margin-left: 25px;
                 box-sizing: border-box;
+                margin-left: 10px;
                 @include susy-breakpoint($pad-x){
                     height: 273px;
                 }
@@ -159,13 +177,13 @@
                     text-decoration: none;
                     display:block;
                     height: 100%;
-                    width:230px;
+                    //width:230px;
                     overflow: hidden;
                     padding-top: 35px;
                     box-sizing: border-box;
                     background-color: white;
                     @include susy-breakpoint($pad-x){
-                        width:126px;
+                        //width:126px;
                     }
                     // @include susy-breakpoint($small_desktop-x){
                     //     width:126px;
@@ -183,13 +201,19 @@
                         }
                     }
                     img{
-                        width: 230px;
+                        //width: 230px;
                         height: 292px;
-                        margin-left: calc((100% - 230px) / 2);
+                        //margin-left: calc((100% - 230px) / 2);
                         @include susy-breakpoint($pad-x){
-                            width: 126px;
+                            //width: 126px;
                             height: 161px;
-                            margin-left: calc((100% - 126px) / 2);
+                            //margin-left: calc((100% - 126px) / 2);
+                        }
+                        @include susy-breakpoint($mid-pad-x){
+                            height:120px;
+                        }
+                        @include susy-breakpoint($small_screen){
+                            height:100px;
                         }
                         // @include susy-breakpoint($small_desktop-x){
                         //     width: 126px;
@@ -204,9 +228,11 @@
                         @include susy-breakpoint($pad-x){
                             margin-top: 30px;
                         }
+                        @include susy-breakpoint($small_screen){
+                            font-size:14px;
+                        }
                     }
                 }
-                
             }
         }
         ul.slick_content{
