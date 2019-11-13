@@ -76,7 +76,7 @@
                     <a href="/qa" class="link_qa" title="Q＆A">Q＆A</a>
                 </li>
                 <li>
-                    <a href="#" class="link_customer" title="客製化選色">客製化選色</a>
+                    <a href="/feature" class="link_customer" title="客製化選色">客製化選色</a>
                 </li>
             </ul> 
         </header>
