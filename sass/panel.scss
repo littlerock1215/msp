@@ -27,6 +27,9 @@
             background-position: 0px 0;
             width:680px;
             height:330px;
+            @include susy-breakpoint(('max-width':1161px)){
+                margin-top: 20px;
+            }
             @include susy-breakpoint($small_desktop-x){
                 margin-top: 0px;
                 width: 60%;
@@ -90,6 +93,8 @@
         margin:0 auto;
         max-width: 1280px;
         width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
         @include susy-breakpoint($small_desktop-x){
             width:100%;
             background-size: cover;
@@ -132,9 +137,12 @@
             width: 1060px;
             margin:0 auto;
             display:none;
-            @include susy-breakpoint($small_desktop-x){
-                width:100%;
+            @include susy-breakpoint($pad-x){
+                width:90%;
             }
+            // @include susy-breakpoint($small_desktop-x){
+            //     width:100%;
+            // }
             li{
                 width:230px;
                 height:497px;
@@ -142,6 +150,9 @@
                 //background-color: white;
                 margin-left: 25px;
                 box-sizing: border-box;
+                @include susy-breakpoint($pad-x){
+                    height: 273px;
+                }
                 a{
                     text-decoration: none;
                     display:block;
@@ -151,9 +162,12 @@
                     padding-top: 35px;
                     box-sizing: border-box;
                     background-color: white;
-                    @include susy-breakpoint($small_desktop-x){
+                    @include susy-breakpoint($pad-x){
                         width:126px;
                     }
+                    // @include susy-breakpoint($small_desktop-x){
+                    //     width:126px;
+                    // }
                     &:hover{
                         img{
                             -moz-transform: scale(1.1);
@@ -170,16 +184,24 @@
                         width: 230px;
                         height: 292px;
                         margin-left: calc((100% - 230px) / 2);
-                        @include susy-breakpoint($small_desktop-x){
+                        @include susy-breakpoint($pad-x){
                             width: 126px;
                             height: 161px;
                             margin-left: calc((100% - 126px) / 2);
                         }
+                        // @include susy-breakpoint($small_desktop-x){
+                        //     width: 126px;
+                        //     height: 161px;
+                        //     margin-left: calc((100% - 126px) / 2);
+                        // }
                     }
                     p{
                         color: black;
                         text-align: center;
                         margin-top: 62px;
+                        @include susy-breakpoint($pad-x){
+                            margin-top: 30px;
+                        }
                     }
                 }
                 
@@ -195,12 +217,19 @@
     .block3{
         margin-top: 51px;
         width: 920px;
-        height: 456px;
+        //height: 456px;
         margin: 51px auto 140px;
+        height: auto;
+        min-height: 456px;
         @include susy-breakpoint($small_desktop-x){
             width: 100%;
             padding: 0 15px;
             box-sizing: border-box;
+        }
+        @include susy-breakpoint($small_screen){
+            min-height: 183px;
+            box-sizing: border-box;
+            margin-bottom: 51px;
         }
         h2{
             font-size: 48px;
