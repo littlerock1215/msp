@@ -291,8 +291,7 @@ header.header {
         box-sizing: border-box; }
         @media (max-width: 1024px) {
           header.header ul.nav_mainpage li a {
-            font-size: 20px;
-            white-space: nowrap; } }
+            font-size: 19px; } }
         header.header ul.nav_mainpage li a:hover {
           border-bottom: 3px solid black; }
       header.header ul.nav_mainpage li ul.submenu {

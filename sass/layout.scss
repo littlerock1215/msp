@@ -144,8 +144,7 @@ header.header{
                 padding-bottom: 8px;
                 box-sizing: border-box;
                 @include susy-breakpoint($small_desktop-x){
-                    font-size: 20px;
-                    white-space: nowrap;
+                    font-size: 19px;
                 }
                 &:hover{
                     border-bottom: 3px solid black; 
