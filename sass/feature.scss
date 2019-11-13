@@ -1,3 +1,5 @@
+@import "_base";
+
 .select_block{
     margin-left: 50px;
     select {
@@ -89,15 +91,111 @@
     .left_block{
         float: left;
         width: 50%;
-        
+
         h6{
             text-align: center;
             font-size: 48px;
+        }
+
+        .product_img_block{
+            width: 393px;
+            height: 497px;
+            background-image: url(../slick/images/img-uf-2@3x.png);
+            background-size: contain;
+            display: block;
+            margin: auto;
+        }
+
+        p{
+            font-size: 16px;
+            color: #f74e4e;
+            text-align: center;
+            margin-top: 25px;
         }
     }
 
     .right_block{
         float: left;
         width: 50%;
+
+        .product_style_block{
+        
+            ul{
+                float: right;
+                margin-bottom: 25px;
+        
+                li{
+                    position: relative;
+                    margin-top: 10px;
+        
+                    a{
+                        width: 415px;
+                        height: 65px;
+                        display: block;
+                        border: solid 2px black;
+                        font-size: 20px;
+                        position: relative;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                        padding: 25px 15px;
+                        padding-top: 20px;
+                        box-sizing: border-box;
+                        
+                        &.active, &:hover{
+                            // background-color: black;
+                            // color: white;
+                        }
+        
+                        i{
+                            position: absolute;
+                            font-size: 40px;
+                            top: 10px;
+                            right: 25px;
+                        }
+        
+                    }
+
+                    .choose_content{
+                        border: solid 1px black;
+                        box-sizing: border-box;
+
+                        ul{
+                            float: none;
+                            padding: 30px;
+                            padding-left: 80px;
+                            padding-right: 100px;
+                            font-size: 20px;
+
+                            li{
+                                margin-bottom: 70px;
+
+                                .color_circle{
+                                    float: right;
+                                    position: relative;
+                                    vertical-align: middle;
+                                    width: 30px;
+                                    height: 30px;
+                                    border-radius: 100%;
+                                    p{
+                                        position: absolute;
+                                        top: 40px;
+                                        left: 5px;
+                                    }
+                                }
+                            }
+
+                            :nth-last-child(1){
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+        
+                }
+        
+        
+            }
+        
+        }
     }
 }
