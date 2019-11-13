@@ -143,6 +143,9 @@ header.header{
                 border-bottom: 3px solid white;
                 padding-bottom: 8px;
                 box-sizing: border-box;
+                @include susy-breakpoint($small_desktop-x){
+                    font-size: 19px;
+                }
                 &:hover{
                     border-bottom: 3px solid black; 
                 }
@@ -249,12 +252,8 @@ footer{
         height:458px;
     }
 
-    // @include susy-breakpoint($small_desktop-x){
-    //     display: none;
-    // }
 
     .footer_block{
-        //width:1200px;
         margin: 0 auto;
         height: 100%;
         box-sizing: border-box;
