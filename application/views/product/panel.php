@@ -11,16 +11,16 @@
     <div class="title_menu">
         <ul>
             <li>
-                <a href="#" class="active" data-type="product1">前避震</a>
+                <a href="#" data-type="product1"<?=$type==1?' class="active"':''?>>前避震</a>
             </li>
             <li>
-                <a href="#" data-type="product2">後避震</a>
+                <a href="#" data-type="product2"<?=$type==2?' class="active"':''?>>後避震</a>
             </li>
             <li>
-                <a href="#" data-type="product3">重車前避震</a>
+                <a href="#" data-type="product3"<?=$type==3?' class="active"':''?>>重車前避震</a>
             </li>
             <li>
-                <a href="#" data-type="product4">重車後避震</a>
+                <a href="#" data-type="product4"<?=$type==4?' class="active"':''?>>重車後避震</a>
             </li>
         </ul>
     </div>
@@ -145,5 +145,18 @@ $(document).ready(function(){
         $('.product_block').removeClass('active');
         $('.'+target).addClass('active');   
     });
+
+
+    // $('ul.submenu li a').click(function(e){
+    //     //e.preventDefault();
+    //     var el =$(this);
+    //     var target = el.data('type');
+
+    //     $('ul.submenu li a').removeClass('active');
+    //     $(this).addClass('active'); 
+
+    //     $('.product_block').removeClass('active');
+    //     $('.'+target).addClass('active');   
+    // });
 });
 </script>

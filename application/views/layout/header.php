@@ -53,19 +53,19 @@
                     <a href="/news" class="link_news" title="最新消息">最新消息</a>
                 </li>
                 <li class="product">
-                    <a href="#" class="link_products" title="產品資訊">產品資訊</a>
+                    <a href="/product" class="link_products" title="產品資訊">產品資訊</a>
                     <ul class="submenu clearfix">
                         <li>
-                            <a href="#" title="前避震">前避震</a>
+                            <a href="/product?type=1" data-type="product1" title="前避震">前避震</a>
                         </li>
                         <li>
-                            <a href="#" title="前避震">後避震</a>     
+                            <a href="/product?type=2" data-type="product2" title="後避震">後避震</a>     
                         </li>
                         <li>
-                            <a href="#" title="前避震">重車前避震</a>
+                            <a href="/product?type=3" data-type="product3" title="重車前避震">重車前避震</a>
                         </li>
                         <li>
-                            <a href="#" title="前避震">重車前避震</a>
+                            <a href="/product?type=4" data-type="product4" title="重車前避震">重車前避震</a>
                         </li>
                     </ul>
                 </li>
@@ -167,6 +167,8 @@
         //$('.nav_mainpage').perfectScrollbar('destroy');
         }
     });
+
+
 
 });
 </script>
