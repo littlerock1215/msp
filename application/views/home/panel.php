@@ -83,13 +83,13 @@
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
-                    <p>UF2_block1</p>
+                    <p>UF2_block2</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
-                    <p>UF2_block1</p>
+                    <p>UF2_block2</p>
                 </a>
             </li>
             <li>
@@ -285,7 +285,7 @@ $(document).ready(function(){
 		$('.'+target).siblings('.slick_content').each(function(i ,block){
 			$(block).removeClass('active');
 			if($(block).hasClass('slick-initialized')){
-				$(el).slick('unslick');
+				$(block).slick('unslick');
 			}
 		});
         $('.'+target).addClass('active').slick(slick_setting);   

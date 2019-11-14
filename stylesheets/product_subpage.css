@@ -69,4 +69,24 @@
       color: black;
       padding-left: 40px; }
       .content_block .product_rightside a.download span {
-        border-bottom: 1px solid black; }
+        border-bottom: 1px solid black;
+        font-size: 16px;
+        line-height: normal; }
+    .content_block .product_rightside a.choose_color {
+      width: 268px;
+      height: 60px;
+      border: 1px solid black;
+      text-decoration: none;
+      display: block;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: normal;
+      letter-spacing: normal;
+      padding: 14px 0 14px 59px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-top: 38px;
+      color: black;
+      background: url(../images/icon-move-m@2x.png) no-repeat;
+      background-size: 13px 26px;
+      background-position: 197px 18px; }
