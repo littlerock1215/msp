@@ -66,27 +66,119 @@
                 <ul class="menu_product_style_ul">
 
                     <li><a  href="" data-target="color">選擇色彩<i class="product_style_fal fal fa-angle-down"></i></a>
-                        <div style="display:none;" class="choose_content color_block clearfix">
-                            <ul>
-                                <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                            </ul>
+                        <div style="display:none;" class="color_block clearfix">
+
+                                <ul id="product_ul">
+                                    <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                </ul>
+
                         </div>
                     </li>
                         
                     <li><a href="" data-target="other">其他配置<i class="product_style_fal fal fa-angle-down"></i></a>
-                        <div style="display:none;" class="choose_content other_block clearfix">
-                            <ul>
-                            
-                            </ul>
+                        <div style="display:none;" class="other_block clearfix">
+
+                            <div class="select_other_block">
+                                <p>*控制類型</p>
+                                <select name="" id="city_select" >
+                                    <option value="">前避震</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+                            </div>
+
+                            <div class="select_other_block">
+                                <p>*廠牌</p>
+                                <select name="" id="city_select" >
+                                    <option value="">JETPOWER</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+                            </div>
+
+                            <div class="select_other_block">
+                                <p>*型號</p>
+                                <select name="" id="city_select" >
+                                    <option value="">JETPOWER</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+                            </div>
+
+                            <div class="select_other_block">
+                                <p>*年份</p>
+                                <select name="" id="city_select" >
+                                    <option value="">2002</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+                            </div>
+
+                            <div class="select_other_block caliper_selsect">
+                                <p>*卡鉗樣式</p>
+                                <select name="" id="city_select" >
+                                    <option value="">對四</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+
+                            </div>
+
+                            <div class="select_other_block">
+                                <p></p>
+                                <select name="" id="city_select" >
+                                    <option value="">2002</option>
+                                    <option value="">後避震</option>
+                                    <option value="">避震器</option>
+                                </select>
+                            </div>
+
+                            <div class="select_other_block">
+                                <p>*是否為雙載</p>
+                                <div class="radio_box">
+                                    <input type="radio" id="disagree" name="select_other"><label for="disagree"></label> <span>否</span> 
+                                    <input type="radio" id="agree" name="select_other"><label class="lable_yes" for="agree"></label><span>是</span>
+                                </div>
+                            </div>
+
+                            <div class="select_other_block">
+                                <p>*公斤數</p>
+                                <input type="text" id="disagree" name="select_other"> <span>公斤</span>
+                            </div>
+
                         </div>
                     </li>
 
-                    <li><a href="" data-target="otem">選購項目<i class="product_style_fal fal fa-angle-down"></i></a>
-                        <div style="display:none;" class="choose_content item_block">
-                            q
+                    <li><a href="" data-target="item">選購項目<i class="product_style_fal fal fa-angle-down"></i></a>
+                        <div style="display:none;" class="item_block">
+
+                            <h2>*調整工具</h2>
+                            <div class="select_other_block select_item_block">
+                                <p style="font-size:16px;;position:relative;top:0px;">棒狀形工具</p>
+                                <input type="radio" id="rod_disagree" name="rod"><label class="lable_no" for="rod_disagree"></label> <span>否</span> 
+                                <input type="radio" id="rod_agree" name="rod"><label class="lable_yes" for="rod_agree"></label><span>是</span>
+                            </div>
+
+                            <div class="select_other_block select_item_block">
+                                <p style="font-size:16px;position:relative;top:0px;">三角形工具</p>
+                                <input type="radio" id="tri_disagree" name="tri"><label class="lable_no" for="tri_disagree"></label> <span>否</span> 
+                                <input type="radio" id="tri_agree" name="tri"><label class="lable_yes" for="tri_agree"></label><span>是</span>
+                            </div>
+
+                            <h2>*三角台</h2>
+                            <div class="select_other_block select_item_block">
+                                <input type="radio" id="tai_disagree" name="tai"><label class="lable_no" for="tai_disagree"></label> <span>否</span> 
+                                <input type="radio" id="tai_agree" name="tai"><label class="lable_yes" for="tai_agree"></label><span>是</span>
+                            </div>
+
+
                         </div>
                     </li>
   
@@ -115,7 +207,19 @@
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+    
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+
+        ]
+
     });
 
     $('.menu_product_style_ul a').click(function(e){
@@ -144,5 +248,9 @@
         }
     });
 
+    $(document).ready(function(){
+        $('.level').perfectScrollbar();
+
+    });
 
 </script>
