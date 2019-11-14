@@ -17,7 +17,7 @@
     <div class="block2">
         <ul class="slick_title type_select">
             <li>
-                <a href="#" data-type="product1" class="active">前避震</a>
+                <a href="#" data-type="product1">前避震</a>
             </li>
             <li>
                 <a href="#" data-type="product2">後避震</a>
@@ -29,7 +29,7 @@
                 <a href="#" data-type="product4">重車後避震</a>
             </li>
         </ul>
-        <ul class="slick_content product1 active">
+        <ul class="slick_content product1">
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
@@ -83,13 +83,13 @@
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
-                    <p>UF2_block1</p>
+                    <p>UF2_block2</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
-                    <p>UF2_block1</p>
+                    <p>UF2_block2</p>
                 </a>
             </li>
             <li>
@@ -259,6 +259,21 @@
 <script>
 
 $(document).ready(function(){
+	var _window_width=window.innerWidth;   
+	var slick_setting = {
+        dots: false,
+        infinite: true,
+        speed: 1200,
+        arrows:true,
+        //autoplay:false,
+        //autoplaySpeed:1200,
+        cssEase: 'linear',
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+    };
+
     $('.type_select li a').click(function(e){
         e.preventDefault();
         var el =$(this);
@@ -267,126 +282,17 @@ $(document).ready(function(){
         $('.type_select li a').removeClass('active');
         $(this).addClass('active'); 
 
-        $('.slick_content').removeClass('active');
-        $('.'+target).addClass('active');   
+		$('.'+target).siblings('.slick_content').each(function(i ,block){
+			$(block).removeClass('active');
+			if($(block).hasClass('slick-initialized')){
+				$(block).slick('unslick');
+			}
+		});
+        $('.'+target).addClass('active').slick(slick_setting);   
+
     });
-//the slider function
-    // $('a.product1').click(function(e){
-    //    e.preventDefault();
-    //     // if($('a.product1').hasClass('active')){ 
-    //     // }else{
-    //         $('a.product1').addClass('active');
-    //         $('a.product2').removeClass('active');
-    //         $('a.product3').removeClass('active');
-    //         $('a.product4').removeClass('active');
-    //         $('ul.slider1').addClass('active');
-    //         $('ul.slider2').removeClass('active');
-    //         $('ul.slider3').removeClass('active');
-    //         $('ul.slider4').removeClass('active');
-    //         // $('body').addClass('open');
-    //     // }
-    // })
+    $('.type_select li:first-child a').click();
 
-    // $('a.product2').click(function(e){
-    //    e.preventDefault();
-    //     $('a.product2').addClass('active');
-    //     $('a.product1').removeClass('active');
-    //     $('a.product3').removeClass('active');
-    //     $('a.product4').removeClass('active');
-    //     $('ul.slider2').addClass('active');
-    //     $('ul.slider1').removeClass('active');
-    //     $('ul.slider3').removeClass('active');
-    //     $('ul.slider4').removeClass('active');
-    // })
-
-    // $('a.product3').click(function(e){
-    //    e.preventDefault();
-    //     $('a.product3').addClass('active');
-    //     $('a.product1').removeClass('active');
-    //     $('a.product2').removeClass('active');
-    //     $('a.product4').removeClass('active');
-    //     $('ul.slider3').addClass('active');
-    //     $('ul.slider1').removeClass('active');
-    //     $('ul.slider2').removeClass('active');
-    //     $('ul.slider4').removeClass('active');
-    // })
-
-    // $('a.product4').click(function(e){
-    //    e.preventDefault();
-    //     $('a.product4').addClass('active');
-    //     $('a.product1').removeClass('active');
-    //     $('a.product2').removeClass('active');
-    //     $('a.product3').removeClass('active');
-    //     $('ul.slider4').addClass('active');
-    //     $('ul.slider1').removeClass('active');
-    //     $('ul.slider2').removeClass('active');
-    //     $('ul.slider3').removeClass('active');
-    // })
-
-    //slider function
-    var _window_width=window.innerWidth;   
-
-    $('ul.product1').slick({
-        dots: false,
-        infinite: true,
-        speed: 1200,
-        arrows:true,
-        //autoplay:false,
-        //autoplaySpeed:1200,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000
-
-        // if(_window_width>=530){
-        //     slidesToShow: 4,
-
-        //     }else{
-        //         slidesToShow: 3,
-        // }
-    });
-
-    $('ul.product2').slick({
-        dots: false,
-        infinite: true,
-        speed: 1200,
-        arrows:true,
-        //autoplay:false,
-        //autoplaySpeed:1200,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-    });
     
-    $('ul.product3').slick({
-        dots: false,
-        infinite: true,
-        speed: 1200,
-        arrows:true,
-        //autoplay:false,
-        //autoplaySpeed:1200,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-    });
-
-    $('ul.product4').slick({
-        dots: false,
-        infinite: true,
-        speed: 1200,
-        arrows:true,
-        //autoplay:false,
-        //autoplaySpeed:1200,
-        cssEase: 'linear',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-    });
 });
 </script>
