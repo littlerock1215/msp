@@ -22,21 +22,21 @@
 
             <div class="buy_car_block">
                 <ul>
-                    <li onclick="show_answer(this)" class="click_item">
+                    <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
-                        <button class="answer_button"></button>
+                        <button type="button" class="answer_button"></button>
                         <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
-                        <button class="answer_button"></button>
+                        <button type="button" class="answer_button"></button>
                         <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
-                        <button class="answer_button"></button>
+                        <button type="button" class="answer_button"></button>
                         <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
                 </ul>
@@ -220,14 +220,18 @@
 
 $(document).ready(function(){
 
+
     $( '.click_item' ).click(function() {
-        if($(".answer_button").hasClass('open')){
-            $(".answer_button").removeClass('open');
-            $(".click_item").children('.answer').toggle();
+  
+        var el = $(this);
+
+        if(el.find('.answer_button').hasClass('open')){
+            el.find('.answer_button').removeClass('open');
+            el.find('.answer').hide();
 
         }else{
-            $(".answer_button").addClass('open');
-            $(".answer_button").children('.answer').toggle();
+            el.find('.answer_button').addClass('open');
+            el.find('.answer').fadeIn();
         }
     });
 
