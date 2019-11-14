@@ -79,7 +79,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="slick_content product2">
+        <ul class="slick_content product2 active">
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
@@ -129,7 +129,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="slick_content product3">
+        <ul class="slick_content product3 active">
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
@@ -179,7 +179,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="slick_content product4">
+        <ul class="slick_content product4 active">
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
@@ -269,7 +269,9 @@ $(document).ready(function(){
 
         $('.slick_content').removeClass('active');
         $('.'+target).addClass('active');   
+
     });
+    $('.type_select li:first-child a').click();
 //the slider function
     // $('a.product1').click(function(e){
     //    e.preventDefault();
