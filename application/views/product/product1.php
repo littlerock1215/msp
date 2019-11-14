@@ -32,7 +32,9 @@
             段數：伸側 低速24段 高速34段<br/>
             　　　壓測 低速24段 高速34段<br/>
             車種：勁戰系列、S-MAX、Forse、Jet's、RCK(其他車種可洽詢)</h2>
-        <a href="#" class="download">下載型錄</a>
+        <a href="#" class="download">
+            <span>下載型錄</span>
+        </a>
         <a class="choose_color">客製化選色</a>
     </div>
 </div>

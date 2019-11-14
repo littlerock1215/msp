@@ -48,11 +48,25 @@
         padding-top: 103px; }
         .content_block .product_leftside .rightside_photo img.active {
           display: block; }
-  .content_block .product_rightside h1 {
-    font-size: 48px;
-    line-height: normal;
-    margin-bottom: 28px; }
-  .content_block .product_rightside h2 {
-    font-size: 20px;
-    line-height: normal;
-    margin-bottom: 18px; }
+  .content_block .product_rightside {
+    float: left; }
+    .content_block .product_rightside h1 {
+      font-size: 48px;
+      line-height: normal;
+      margin-bottom: 28px; }
+    .content_block .product_rightside h2 {
+      font-size: 20px;
+      line-height: normal;
+      margin-bottom: 18px; }
+    .content_block .product_rightside a.download {
+      background: url(../images/icon-pdf-download@2x.png) no-repeat;
+      background-size: 30px 30px;
+      background-position: 0px 0;
+      text-decoration: none;
+      display: block;
+      width: 140px;
+      height: 30px;
+      color: black;
+      padding-left: 40px; }
+      .content_block .product_rightside a.download span {
+        border-bottom: 1px solid black; }
