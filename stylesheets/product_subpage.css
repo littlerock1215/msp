@@ -11,6 +11,9 @@
     padding-left: 100px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+    @media (max-width: 1160px) {
+      .content_block .product_leftside {
+        padding-left: 4%; } }
     .content_block .product_leftside .leftside_photo {
       width: 72px;
       display: inline-block;
@@ -50,6 +53,9 @@
           display: block; }
   .content_block .product_rightside {
     float: left; }
+    @media (min-width: 1024px) {
+      .content_block .product_rightside {
+        width: 45%; } }
     .content_block .product_rightside h1 {
       font-size: 48px;
       line-height: normal;

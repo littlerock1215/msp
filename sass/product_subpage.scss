@@ -15,6 +15,9 @@
         width:40%;
         padding-left: 100px;
         box-sizing: border-box;
+        @include susy-breakpoint(('max-width':1160px)){
+            padding-left: 4%;
+        }
         .leftside_photo{
             width:72px;
             display: inline-block;
@@ -63,6 +66,9 @@
     }
     .product_rightside{
         float:left;
+        @include susy-breakpoint($pad){
+            width: 45%;
+        }
         h1{
             font-size: 48px;
             line-height: normal;

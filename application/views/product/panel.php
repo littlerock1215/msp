@@ -2,7 +2,7 @@
 
 <div class="title_block">
     <div class="content_title">
-        <a href="#">主頁</a><span>></span><a href="#">產品資訊</a>
+        <a href="/">主頁</a><span>></span><a href="#">產品資訊</a>
         <h1 class="page_title">產品資訊</h1>
     </div>
 </div>
@@ -27,106 +27,154 @@
     <div class="product_list">
         <ul class="product_block product1 clearfix active">
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2_1</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2_1</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
         </ul>
         <ul class="product_block product2 clearfix">
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2_2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2_2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
         </ul>
         <ul class="product_block product3 clearfix">
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2_3</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2_3</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
         </ul>
         <ul class="product_block product4 clearfix">
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2_4</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2_4</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
             <li>
-                <img src="images/img-uf-2@2x.png">
-                <p>UF2</p>
+                <a href="/product_subpage">
+                    <img src="images/img-uf-2@2x.png">
+                    <p>UF2</p>
+                </a>
             </li>
         </ul>
     </div>

@@ -31,7 +31,7 @@
 <body>
     <div class="bigger_header">
         <header class="header clearfix">
-            <a href="#" class="logo" title="MSP"></a>
+            <a href="/" class="logo" title="MSP"></a>
             <!-- <button type="button" id="BackTop" class="top"></button> -->
             <a href="/" class="main_menu_hamburger" title="手機選單">
                 <div class="in">
@@ -53,7 +53,7 @@
                     <a href="/news" class="link_news" title="最新消息">最新消息</a>
                 </li>
                 <li class="product">
-                    <a href="/product" class="link_products" title="產品資訊">產品資訊</a>
+                    <a href="/product?type=1" data-type="product1" class="link_products" title="產品資訊">產品資訊</a>
                     <ul class="submenu clearfix">
                         <li>
                             <a href="/product?type=1" data-type="product1" title="前避震">前避震</a>

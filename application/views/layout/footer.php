@@ -2,22 +2,22 @@
     <div class="footer_block">
         <ul class="footer_infor clearfix">
             <li>
-                <a href="#">關於我們</a>
+                <a href="/aboutus">關於我們</a>
             </li>
             <li>
-                <a href="#">最新消息</a>
+                <a href="/news">最新消息</a>
             </li>
             <li>
-                <a href="#">產品資訊</a>
+                <a href="/product">產品資訊</a>
             </li>
             <li>
-                <a href="#">經銷據點</a>
+                <a href="/promotebase">經銷據點</a>
             </li>
             <li>
-                <a href="#">Q＆A</a>
+                <a href="/qa">Q＆A</a>
             </li>
             <li>
-                <a href="#">客製化選色</a>
+                <a href="/feature">客製化選色</a>
             </li>
         </ul>
         <div>

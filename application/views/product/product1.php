@@ -2,7 +2,7 @@
 
 <div class="title_block">
     <div class="content_title">
-        <a href="#">主頁</a><span>></span><a href="#">產品資訊</a><span>></span><a href="#">前避震UF2</a>
+        <a href="/">主頁</a><span>></span><a href="product">產品資訊</a><span>></span><a href="/product_subpage">前避震UF2</a>
     </div>
 </div>
 
@@ -35,7 +35,7 @@
         <a class="download" href="/test.txt" download="test.txt">
             <span>下載型錄</span>
         </a>
-        <a href="#" class="choose_color">客製化選色</a>
+        <a href="/feature" class="choose_color">客製化選色</a>
     </div>
 </div>
 
