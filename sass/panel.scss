@@ -14,7 +14,7 @@
             float:right;
             background:url(../images/img-logo@3x.png) no-repeat;
             background-size:358px 90px;
-            background-position: 0px 0;
+            background-position: 0px 2px;
             @include susy-breakpoint($small_desktop-x){
                 display:none;
             }
@@ -53,6 +53,9 @@
                 display:none;
                 @include susy-breakpoint($small_desktop-x){
                     display:block;
+                }
+                @include susy-breakpoint($small_screen){
+                    font-size: 16px;
                 }
             }
         }
@@ -104,6 +107,9 @@
             //width:100%;
             background-size: cover;
         }
+        @include susy-breakpoint($small_screen){
+            height: 414px;
+        }
         ul.slick_title{
             width:520px;
             margin:0 auto;
@@ -111,6 +117,10 @@
             padding-bottom: 39px;
             @include susy-breakpoint($mid-pad-x){
                 width:400px;
+            }
+            @include susy-breakpoint($small_screen){
+                width:auto;
+                text-align: center;
             }
             li{
                 display:inline-block;
@@ -121,6 +131,9 @@
                 @include susy-breakpoint($mid-pad-x){
                     margin-right: 11px;
                 }
+                @include susy-breakpoint($iphone_se){
+                    margin-right: 4px;
+                }
                 a{
                     display:block;
                     text-decoration: none;
@@ -129,6 +142,12 @@
                     border-bottom: 2px solid rgba(255,255,255,0);
                     font-size: 20px;
                     letter-spacing: 1px;
+                    @include susy-breakpoint($small_screen){
+                        font-size:16px;
+                    }
+                    @include susy-breakpoint($iphone_se){
+                        font-size:14px;
+                    }
                     &:hover{
                         border-bottom: 2px solid #000000;
                     }
@@ -185,6 +204,9 @@
                     @include susy-breakpoint($pad-x){
                         //width:126px;
                     }
+                    @include susy-breakpoint($small_screen){
+                        height:80%;
+                    }
                     // @include susy-breakpoint($small_desktop-x){
                     //     width:126px;
                     // }
@@ -221,6 +243,10 @@
                         //     margin-left: calc((100% - 126px) / 2);
                         // }
                     }
+                    // img.product_name{
+                    //     width:63px;
+                    //     height:130px;
+                    // }
                     p{
                         color: black;
                         text-align: center;
@@ -229,7 +255,7 @@
                             margin-top: 30px;
                         }
                         @include susy-breakpoint($small_screen){
-                            font-size:14px;
+                            font-size:12px;
                         }
                     }
                 }
@@ -280,6 +306,7 @@
             @include susy-breakpoint($small_screen){
                 padding: 15px;
                 box-sizing: border-box;
+                padding-bottom: 50px;
             }
             li{
                 font-size: 20px;
@@ -287,7 +314,12 @@
                 margin-bottom: 40px;
                 @include susy-breakpoint($small_screen){
                     font-size: 16px;
-                    margin-bottom: 25px;
+                    margin-bottom: 0px; 
+                }
+                &:last-child{
+                    @include susy-breakpoint($small_screen){
+                        margin-bottom:25px;
+                    }
                 }
                 a{
                     text-decoration: none;

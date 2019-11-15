@@ -2,7 +2,7 @@
 
 <div class="title_block">
     <div class="content_title">
-        <a href="#">主頁</a><span>></span><a href="#">經銷據點</a>
+        <a href="/">主頁</a><span>></span><a href="#">經銷據點</a>
         <h1 class="page_title">經銷據點</h1>
     </div>
 </div>

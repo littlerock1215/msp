@@ -42,7 +42,7 @@
             </a>
             <div class="language">
                 <a href="#" class="chinese active">繁體中文 </a>
-                <a href="#" class="english">English</a>
+                <!-- <a href="#" class="english">English</a> -->
             </div>
             <br>
             <ul  class="nav_mainpage clearfix">

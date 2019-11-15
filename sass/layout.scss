@@ -60,6 +60,9 @@ header.header{
         @include susy-breakpoint($small_screen){
             top:30px;
         }
+        @include susy-breakpoint($iphone_se){
+            left: 10px;
+        }
     }
     .language{
         float:right;

@@ -7,9 +7,9 @@
     font-size: 20px;
     margin: 30px auto 140px;
     padding:0 15px;
-    // @include susy-breakpoint($small_desktop-x){
-    //     width: 100%;
-    // }
+    @include susy-breakpoint(('max-width':722px)){
+        margin: 30px auto 50px;
+    }
     .product_leftside{
         float:left;
         width:40%;
@@ -17,6 +17,19 @@
         box-sizing: border-box;
         @include susy-breakpoint(('max-width':1160px)){
             padding-left: 4%;
+        }
+        @include susy-breakpoint($small_desktop-x){
+            width: auto;
+        }
+        @include susy-breakpoint(('max-width':722px)){
+            float: none;
+            margin: 0 auto;
+            //width: 80%;
+            width: auto;
+            padding-left: 8%;
+        }
+        @include susy-breakpoint($small_screen){
+            width: auto;
         }
         .leftside_photo{
             width:72px;
@@ -39,6 +52,7 @@
                     height:88.5px;
                     padding-top:0.5px;
                     padding-top: 33px;
+                    padding-left: 0.5px;
                 }
                 &:nth-child(2){
                     border-top: 0.5px solid white;
@@ -58,6 +72,9 @@
                 width:230px;
                 height:291px;
                 padding-top: 103px;
+                @include susy-breakpoint($iphone_se){
+                    width:170px;
+                }
                 &.active{
                     display:block;
                 }
@@ -66,18 +83,33 @@
     }
     .product_rightside{
         float:left;
-        @include susy-breakpoint($pad){
+        @include susy-breakpoint($small_desktop-x){
             width: 45%;
+            margin-left: 20px;
+        }
+        @include susy-breakpoint(('max-width':722px)){
+            width:auto;
         }
         h1{
             font-size: 48px;
             line-height: normal;
             margin-bottom: 28px;
+            @include susy-breakpoint($small_screen){
+                font-size: 24px;
+                padding-left: 200px;
+            }
+            @include susy-breakpoint($iphone_se){
+                padding-left: 160px;
+            }
         }
         h2{
             font-size: 20px;
             line-height: normal;
             margin-bottom: 18px;
+            @include susy-breakpoint($small_screen){
+                font-size: 16px;
+            }
+            
         }
         a.download{
             background:url(../images/icon-pdf-download@2x.png) no-repeat;
@@ -89,6 +121,9 @@
             height:30px;
             color: black;
             padding-left: 40px;
+            @include susy-breakpoint($small_screen){
+                font-size: 16px;
+            }
             span{
                 border-bottom: 1px solid black;
                 font-size: 16px;
@@ -113,6 +148,9 @@
             background:url(../images/icon-move-m@2x.png) no-repeat;
             background-size:13px 26px;
             background-position: 197px 18px;
+            @include susy-breakpoint($small_screen){
+                margin-top: 15px;
+            }
         }
     }  
 }

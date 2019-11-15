@@ -33,6 +33,8 @@
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
+                    <!-- <img class="product_name" src="slick/images/fdp_new.png"> -->
+                    
                     <p>UF2_block1</p>
                 </a>
             </li>
@@ -235,20 +237,20 @@
         <h2>最新消息</h2>
         <ul>
             <li>
-                <a href="#">2019.09.31<span>徵人啟事</span></a>
+                <a href="/news_subpage">2019.09.31<span>徵人啟事</span></a>
             </li>
             <li>
-                <a href="#">2019.05.17<span>EDS電控說明書</span></a>
+                <a href="/news_subpage">2019.05.17<span>EDS電控說明書</span></a>
             </li>
             <li>
-                <a href="#">2019.09.31<span>徵人啟事</span></a>
+                <a href="/news_subpage">2019.09.31<span>徵人啟事</span></a>
             </li>
             <li>
-                <a href="#">2019.05.17<span>EDS電控說明書</span></a>
+                <a href="/news_subpage">2019.05.17<span>EDS電控說明書</span></a>
             </li>
 
-            <a class="more_news" href="#">更多消息</a>
-            <a class="more_news_arrow" href="#"></a>
+            <a class="more_news" href="/news">更多消息</a>
+            <a class="more_news_arrow" href="/news"></a>
                    
         </ul>
     </div>
@@ -272,6 +274,23 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
+
+        responsive: [
+    
+            {
+                breakpoint: 530,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+                // breakpoint: 400,
+                // settings: {
+                //     slidesToShow: 2,
+                //     slidesToScroll: 1
+                // }
+            }
+
+        ]
     };
 
     $('.type_select li a').click(function(e){

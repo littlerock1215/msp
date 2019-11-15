@@ -15,14 +15,23 @@
         height: auto;
         margin-bottom: 25px;
     }
+    @include susy-breakpoint(('max-width':430px)){
+        padding-bottom: 10px;
+    }
     a{
         display:inline-block;
         text-decoration: none;
         font-size: 16px;
         color:white;
         margin-top: 26px;
+        @include susy-breakpoint($small_screen){
+            margin-top: 11px;
+        }
         &:first-child{
             margin-left: 52px;
+            @include susy-breakpoint($small_screen){
+                margin-left: 14px;
+            }
         }
         @include susy-breakpoint($small_screen){
             font-size: 12px;
@@ -51,10 +60,14 @@
             margin-top: 26px;
         }
         @include susy-breakpoint($small_screen){
-            margin-top: 0px;
             margin-left: auto;
             text-align: center;
             width: auto;
+        }
+        @include susy-breakpoint(('max-width':430px)){
+            font-size:20px;
+            height:auto;
+            margin-top: 0px;
         }
     }
 }
@@ -78,6 +91,9 @@
         margin:27px auto 140px;
         @include susy-breakpoint($small_desktop-x){
             width:100%;
+        }
+        @include susy-breakpoint($small_screen){
+            margin:27px auto 50px;
         }
     }
 }

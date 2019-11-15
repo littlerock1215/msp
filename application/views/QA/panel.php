@@ -2,7 +2,7 @@
 
 <div class="title_block">
     <div class="content_title">
-        <a href="#">主頁</a><span>></span><a href="#">Q&A</a>
+        <a href="/">主頁</a><span>></span><a href="#">Q&A</a>
         <h1 class="page_title">Q&A</h1>
     </div>
 </div>

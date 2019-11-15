@@ -3,7 +3,7 @@
     width: 920px;
     height:auto;
     font-size: 20px;
-    margin: 30px auto 140px;
+    margin: 30px auto 0px;
     @include susy-breakpoint($small_desktop-x){
         width: 100%;
     }   
@@ -79,8 +79,28 @@
                 width:230px;
                 float:left;
                 margin-right: 22px;
+                margin-bottom: 175px;
+                &:nth-child(2n){
+                    margin-right:0px;
+                }
                 @include susy-breakpoint(('max-width':870px)){
                     width: 108px;
+                }
+                a{
+                    text-decoration: none;
+                    display: block;
+                    &:hover{
+                        img{
+                            -moz-transform: scale(1.1);
+                            -webkit-transform: scale(1.1);
+                            -o-transform: scale(1.1);
+                            -ms-transform: scale(1.1);
+                            transform: scale(1.1);
+                            -webkit-transition-duration: .2s;
+                            -o-transition-duration: .2s;
+                            transition-duration: .2s;  
+                        }
+                    }
                 }
                 img{
                     width: 230px;
@@ -120,6 +140,14 @@
             @include susy-breakpoint(('max-width':666px)){
                 width: 60%;
                 padding-left: calc((60% - 260px) / 2);
+            }
+            @include susy-breakpoint($small_screen){
+                width: 66%;
+                padding-left: calc((66% - 238px) / 2);
+            }
+            @include susy-breakpoint($iphone_se){
+                width: 82%;
+                padding-left: calc((82% - 238px) / 2);
             }
         }
     }

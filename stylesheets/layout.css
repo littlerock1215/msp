@@ -224,6 +224,9 @@ header.header {
     @media (max-width: 530px) {
       header.header a.logo {
         top: 30px; } }
+    @media (max-width: 400px) {
+      header.header a.logo {
+        left: 10px; } }
   header.header .language {
     float: right; }
     @media (max-width: 1024px) {
