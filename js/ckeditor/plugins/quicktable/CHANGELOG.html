@@ -1,0 +1,53 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>CHANGELOG.md</title>
+      </head>
+      <body>
+        <h1 id="quicktable-plugin-for-ckeditor-4-x">Quicktable plugin for ckeditor 4.x</h1>
+<p>###Version 1.0.5</p>
+<ul>
+<li>If the border gets disabled (<code>config.qtBorder = 0</code>) it isn&#39;t necessary to set the qtClass to <code>cke_show_border</code> anymore<ul>
+<li>Event <code>removeFormatCleanup</code> is fired if table gets inserted into the editor</li>
+</ul>
+</li>
+<li>Small changes to the preview table design (no table border, cellspacing and cellpadding of 1)</li>
+<li>Adding option for preview table cell border</li>
+<li>Adding option for preview table cell background on hover</li>
+<li>Adding option for preview table cell size</li>
+</ul>
+<p>###Version 1.0.4</p>
+<ul>
+<li>fix refactoring errors (table dimensions didn&#39;t get updated anymore)<pre><code class="lang-javascript">  Cannot read property &#39;setText&#39; of undefined
+</code></pre>
+<pre><code class="lang-javascript">  Cannot read property &#39;$&#39; of undefined
+</code></pre>
+</li>
+</ul>
+<p>###Version 1.0.3</p>
+<ul>
+<li>short option values <em>(older ones are not supported anymore)</em></li>
+<li>modify compiled sample so it refers to local ckeditor</li>
+<li>updated configuration sample</li>
+<li>example includes 2 editors (default and custom configuration)</li>
+<li>code refactoring to decrease code complexity and count of statements</li>
+</ul>
+<p>###Version 1.0.2</p>
+<ul>
+<li>Adding cellspacing option</li>
+<li>Adding cellpadding option</li>
+<li>Change default width to table plugin default width</li>
+</ul>
+<p>###Version 1.0.1</p>
+<ul>
+<li>change the sample to use ckeditor cdn</li>
+<li>adding a new class option to set the table attribute class</li>
+<li>change the style option type from string to object (for easier configuration)</li>
+</ul>
+<p>###Version 1.0.0</p>
+<ul>
+<li>Initial Release</li>
+</ul>
+
+      </body>
+    </html>
