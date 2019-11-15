@@ -196,6 +196,9 @@
             @media (max-width: 530px) {
               .panel .block2 ul.slick_content li a img {
                 height: 100px; } }
+          .panel .block2 ul.slick_content li a img.product_name {
+            width: 63px;
+            height: 130px; }
           .panel .block2 ul.slick_content li a p {
             color: black;
             text-align: center;

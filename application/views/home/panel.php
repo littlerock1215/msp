@@ -33,7 +33,7 @@
             <li>
                 <a href="#">
                     <img src="slick/images/img-uf-2@2x.png">
-                    <!-- <img class="product_name" src="slick/images/fdp_new.png"> -->
+                    <!-- <img class="product_name" src="images/UF2.png"> -->
                     
                     <p>UF2_block1</p>
                 </a>
