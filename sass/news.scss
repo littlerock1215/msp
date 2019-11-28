@@ -39,7 +39,7 @@
     width: 792px;
     font-size: 24px;
     margin:65px auto 27px;
-    height:404px;
+    min-height:404px;
     @include susy-breakpoint($small_desktop-x){
         width: 90%;
     }

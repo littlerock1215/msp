@@ -8,7 +8,7 @@
       width: 100%; } }
   .content_block .title_menu {
     width: 100%;
-    height: 112px;
+    height: 56px;
     background-color: #000000;
     margin-top: 60px; }
     @media (max-width: 1024px) {
@@ -56,7 +56,7 @@
         font-weight: initial;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        padding: 46px 0 46px; }
+        padding: 18px 0; }
         @media (max-width: 1024px) {
           .content_block .title_menu ul li a {
             width: 100px;

@@ -188,12 +188,19 @@ header.header{
                     top:30px;
                     left: -34px;
                 }
+                @include susy-breakpoint($small_screen){
+                    left: -12px;
+                    width: 119px;
+                }
                 li{
                     margin-left: 29px;
                     margin-top: 20px;
                     @include susy-breakpoint($small_desktop-x){
                         width: 107px;
                         text-align: center;
+                    }
+                    @include susy-breakpoint($small_screen){
+                        margin-left: auto;
                     }
                     a{
                         font-size: 20px;

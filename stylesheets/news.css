@@ -32,7 +32,7 @@
   width: 792px;
   font-size: 24px;
   margin: 65px auto 27px;
-  height: 404px; }
+  min-height: 404px; }
   @media (max-width: 1024px) {
     .content_block {
       width: 90%; } }
