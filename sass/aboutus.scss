@@ -8,6 +8,10 @@
     background-position: 0 0px;
     max-width: 1280px;
     width:100%;
+    @include susy-breakpoint(('min-width':1280px)){
+        padding-top: 105px;
+        background-position: 0px 105px;
+    }
     @include susy-breakpoint($desktop-min-width-x){
         background-size:100% auto;
     }
@@ -29,6 +33,7 @@
         }
         &:first-child{
             margin-left: 52px;
+            border-bottom: 1px solid white;
             @include susy-breakpoint($small_screen){
                 margin-left: 14px;
             }

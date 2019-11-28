@@ -1,8 +1,8 @@
 <link type="text/css" rel="stylesheet" href="stylesheets/news.css?<?=time()?>">
-
+<link type="text/css" rel="stylesheet" href="stylesheets/news_subpage.css?<?=time()?>">
 <div class="title_block">
     <div class="content_title">
-        <a href="/">主頁</a><span>></span><a href="/news">最新消息</a><span>></span><a href="#">徵人啟事</a>
+        <a href="/">主頁</a><span>></span><a class="bottom_line" href="/news">最新消息</a><span>></span><a href="#">徵人啟事</a>
     </div>
 </div>
 

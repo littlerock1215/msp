@@ -1,8 +1,9 @@
 <link type="text/css" rel="stylesheet" href="stylesheets/product_subpage.css?<?=time()?>">
+<link type="text/css" rel="stylesheet" href="stylesheets/news_subpage.css?<?=time()?>">
 
 <div class="title_block">
     <div class="content_title">
-        <a href="/">主頁</a><span>></span><a href="product">產品資訊</a><span>></span><a href="/product_subpage">前避震UF2</a>
+        <a href="/">主頁</a><span>></span><a class="bottom_line" href="product">產品資訊</a><span>></span><a href="/product_subpage">前避震UF2</a>
     </div>
 </div>
 

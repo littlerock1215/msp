@@ -6,6 +6,10 @@
   background-position: 0 0px;
   max-width: 1280px;
   width: 100%; }
+  @media (min-width: 1280px) {
+    .subtitle_block {
+      padding-top: 105px;
+      background-position: 0px 105px; } }
   @media (max-width: 1300px) {
     .subtitle_block {
       background-size: 100% auto; } }
@@ -26,7 +30,8 @@
       .subtitle_block a {
         margin-top: 11px; } }
     .subtitle_block a:first-child {
-      margin-left: 52px; }
+      margin-left: 52px;
+      border-bottom: 1px solid white; }
       @media (max-width: 530px) {
         .subtitle_block a:first-child {
           margin-left: 14px; } }
