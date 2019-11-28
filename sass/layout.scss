@@ -340,6 +340,13 @@ footer{
             top: 30px;
             width: 280px;
             height: 55px;
+            @include susy-breakpoint($small_screen){
+                right: 0;
+                width: 250px;
+            }
+            @include susy-breakpoint($iphone_se){
+                width: 210px;
+            }
             a{
                 display:inline-block;
                 text-decoration: none;
@@ -353,31 +360,51 @@ footer{
                 background:url(../images/icon-fb@2x.png) no-repeat;
                 background-size: auto 55px;
                 background-position: 0px 0;
-                @include susy-breakpoint($small_desktop-x){
-                    width: 45px;
-                    height: 45px;
+                width: 30px;
+                height: 30px;
+                background-size: auto 30px;
+                // @include susy-breakpoint($small_desktop-x){
+                //     width: 45px;
+                //     height: 45px;
+                // }
+                @include susy-breakpoint($iphone_se){
+                    margin-left: 20px;
                 }
             }
             a.footer_ig{
                 background:url(../images/icon-ig@2x.png) no-repeat;
                 background-size:55px 55px;
                 background-position: 0px 0;
-                @include susy-breakpoint($small_desktop-x){
-                    width: 45px;
-                    height: 45px;
-                    background-size: 45px 45px;
+                width: 30px;
+                height: 30px;
+                background-size: auto 30px;
+                // @include susy-breakpoint($small_desktop-x){
+                //     width: 45px;
+                //     height: 45px;
+                //     background-size: 45px 45px;
+                // }
+                @include susy-breakpoint($iphone_se){
+                    margin-left: 20px;
                 }
             }
             a.footer_yt{
                 background:url(../images/icon-youtube@2x.png) no-repeat;
-                background-size:55px auto;
+                //background-size:55px auto;
                 padding-top: 20px;
-                background-position: 10px 26px;
-                width: 65px;
-                @include susy-breakpoint($small_desktop-x){
-                    width: 65px;
-    height: 45px;
-    padding-top: 24px;
+                //background-position: 10px 26px;
+                //width: 65px;
+                width: 60px;
+                height: 30px;
+                background-size: auto 30px;
+                background-position: 0px 20px;
+                margin-left: 40px;
+                // @include susy-breakpoint($small_desktop-x){
+                //     width: 65px;
+                //     height: 45px;
+                //     padding-top: 24px;
+                // }
+                @include susy-breakpoint($iphone_se){
+                    margin-left: 30px;
                 }
             }
         }

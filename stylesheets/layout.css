@@ -470,6 +470,13 @@ footer {
       top: 30px;
       width: 280px;
       height: 55px; }
+      @media (max-width: 530px) {
+        footer .footer_block .social_link {
+          right: 0;
+          width: 250px; } }
+      @media (max-width: 400px) {
+        footer .footer_block .social_link {
+          width: 210px; } }
       footer .footer_block .social_link a {
         display: inline-block;
         text-decoration: none;
@@ -481,31 +488,34 @@ footer {
       footer .footer_block .social_link a.footer_fb {
         background: url(../images/icon-fb@2x.png) no-repeat;
         background-size: auto 55px;
-        background-position: 0px 0; }
-        @media (max-width: 1024px) {
+        background-position: 0px 0;
+        width: 30px;
+        height: 30px;
+        background-size: auto 30px; }
+        @media (max-width: 400px) {
           footer .footer_block .social_link a.footer_fb {
-            width: 45px;
-            height: 45px; } }
+            margin-left: 20px; } }
       footer .footer_block .social_link a.footer_ig {
         background: url(../images/icon-ig@2x.png) no-repeat;
         background-size: 55px 55px;
-        background-position: 0px 0; }
-        @media (max-width: 1024px) {
+        background-position: 0px 0;
+        width: 30px;
+        height: 30px;
+        background-size: auto 30px; }
+        @media (max-width: 400px) {
           footer .footer_block .social_link a.footer_ig {
-            width: 45px;
-            height: 45px;
-            background-size: 45px 45px; } }
+            margin-left: 20px; } }
       footer .footer_block .social_link a.footer_yt {
         background: url(../images/icon-youtube@2x.png) no-repeat;
-        background-size: 55px auto;
         padding-top: 20px;
-        background-position: 10px 26px;
-        width: 65px; }
-        @media (max-width: 1024px) {
+        width: 60px;
+        height: 30px;
+        background-size: auto 30px;
+        background-position: 0px 20px;
+        margin-left: 40px; }
+        @media (max-width: 400px) {
           footer .footer_block .social_link a.footer_yt {
-            width: 65px;
-            height: 45px;
-            padding-top: 24px; } }
+            margin-left: 30px; } }
 
 .title_block {
   position: relative;

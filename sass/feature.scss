@@ -443,11 +443,12 @@
                                 height: 35px;
                                 border-radius: 10px;
                                 border: solid 1px black;
-                                padding: 5px 3px;
+                                //padding: 5px 3px;
+                                padding: 7px 16px;
                                 box-sizing: border-box;
                                 outline: none;
                                 margin-left: 40px;
-
+                                font-size:16px;
                                 @include susy-breakpoint($desktop-x){
                                     margin-left: 0px;
                                 }

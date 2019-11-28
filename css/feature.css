@@ -328,11 +328,12 @@
             height: 35px;
             border-radius: 10px;
             border: solid 1px black;
-            padding: 5px 3px;
+            padding: 7px 16px;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             outline: none;
-            margin-left: 40px; }
+            margin-left: 40px;
+            font-size: 16px; }
             @media (max-width: 1139px) {
               .product_block .right_block .product_style_block ul li .select_other_block input[type="text"] {
                 margin-left: 0px; } }
