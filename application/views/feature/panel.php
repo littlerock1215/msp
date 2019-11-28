@@ -2,8 +2,8 @@
 
 <div class="title_block">
     <div class="content_title">
-        <a href="/">主頁</a><span>></span><a href="#">客製化特色系統</a>
-        <h1 class="page_title">客製化特色系統</h1>
+        <a href="/">主頁</a><span>></span><a href="#">客製化選色系統</a>
+        <h1 class="page_title">客製化選色系統</h1>
     </div>
 </div>
 

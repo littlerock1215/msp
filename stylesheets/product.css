@@ -26,6 +26,9 @@
     @media (max-width: 530px) {
       .content_block .title_menu {
         width: 60%; } }
+    @media (max-width: 400px) {
+      .content_block .title_menu {
+        width: 80%; } }
     .content_block .title_menu ul li {
       display: inline-block;
       margin-right: 74px; }
@@ -45,11 +48,15 @@
       .content_block .title_menu ul li a {
         display: block;
         text-decoration: none;
-        width: 114px;
+        width: 116px;
         background-color: black;
         color: white;
         text-align: center;
-        padding: 46px 0; }
+        font-size: 20px;
+        font-weight: initial;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 46px 0 46px; }
         @media (max-width: 1024px) {
           .content_block .title_menu ul li a {
             width: 100px;
@@ -57,6 +64,13 @@
         @media (max-width: 767px) {
           .content_block .title_menu ul li a {
             font-size: 16px; } }
+        @media (max-width: 530px) {
+          .content_block .title_menu ul li a {
+            padding: 0px 0;
+            height: 42px;
+            line-height: 42px;
+            margin-top: 15px;
+            margin-bottom: 10px; } }
         .content_block .title_menu ul li a.active {
           color: black;
           background-color: white; }

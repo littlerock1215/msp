@@ -25,6 +25,9 @@
         }
         @include susy-breakpoint($small_screen){
             width: 60%;
+        }
+        @include susy-breakpoint($iphone_se){
+            width: 80%;
         }       
         ul{
             li{
@@ -48,19 +51,30 @@
                 a{
                     display:block;
                     text-decoration: none;
-                    width: 114px;
+                    width: 116px;
                     //height: 112px;
                     background-color:black;
                     color:white;
                     text-align: center;
-                    padding: 46px 0;
+                    //padding: 46px 0;
+                    font-size: 20px;
+                    font-weight: initial;
+                    box-sizing: border-box;
+                    padding: 46px 0 46px;
                     @include susy-breakpoint($small_desktop-x){
                         width: 100px;
                         font-size: 18px;
                     }
                     @include susy-breakpoint($mid-pad-x){
                         font-size:16px;
-                    }   
+                    }
+                    @include susy-breakpoint($small_screen){
+                        padding: 0px 0;
+                        height: 42px;
+                        line-height: 42px;
+                        margin-top: 15px;
+                        margin-bottom: 10px;
+                    }    
                     &.active{
                         color:black;
                         background-color:white;
