@@ -1,0 +1,103 @@
+.content_block {
+  width: 415px;
+  margin: 90px auto 0; }
+  .content_block .process_block {
+    width: 100%;
+    height: 140px; }
+    .content_block .process_block ul {
+      height: 100%;
+      width: 400px;
+      margin-left: 40px; }
+      .content_block .process_block ul li {
+        width: 96px;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top; }
+        .content_block .process_block ul li p.step {
+          padding-top: 14px;
+          padding-left: 18px; }
+        .content_block .process_block ul li p.step_title {
+          padding-top: 27px; }
+      .content_block .process_block ul li.circle_1, .content_block .process_block ul li.circle_2 {
+        background: url(../images/process_gray.png) no-repeat;
+        background-size: 45px 45px;
+        background-position: 0px 0px; }
+      .content_block .process_block ul li.circle_3, .content_block .process_block ul li.circle_4 {
+        background: url(../images/process_hallow2.png) no-repeat;
+        background-size: 50px 50px;
+        background-position: -4px -3px; }
+        .content_block .process_block ul li.circle_3 p.step_title, .content_block .process_block ul li.circle_4 p.step_title {
+          margin-left: -10px; }
+      .content_block .process_block ul li.circle_1 p.step {
+        color: white; }
+      .content_block .process_block ul li.circle_1 p.step_title {
+        margin-left: -18px; }
+      .content_block .process_block ul li.circle_2 p.step_title {
+        margin-left: -24px; }
+      .content_block .process_block ul li.circle_3 p.step {
+        color: #d8d8d8; }
+      .content_block .process_block ul li.circle_4 {
+        position: relative; }
+        .content_block .process_block ul li.circle_4 img {
+          position: absolute;
+          width: 27px;
+          height: 20px;
+          top: 12px;
+          left: 8px; }
+        .content_block .process_block ul li.circle_4 p.step_title2 {
+          padding-top: 57px;
+          margin-left: -10px; }
+      .content_block .process_block ul li.circle_1, .content_block .process_block ul li.circle_2, .content_block .process_block ul li.circle_3 {
+        position: relative; }
+        .content_block .process_block ul li.circle_1 img, .content_block .process_block ul li.circle_2 img, .content_block .process_block ul li.circle_3 img {
+          position: absolute;
+          top: 20px;
+          left: 50px;
+          width: 46px; }
+      .content_block .process_block ul p.title_gray {
+        color: #d8d8d8; }
+  .content_block .infor_block {
+    width: 100%; }
+    .content_block .infor_block .infor_title {
+      height: 65px;
+      background-color: #e6e6e6; }
+      .content_block .infor_block .infor_title h4 {
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-left: 26px; }
+    .content_block .infor_block .infor_content {
+      padding-left: 35px;
+      padding-top: 32px;
+      padding-right: 35px;
+      padding-bottom: 33px;
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 30px; }
+      .content_block .infor_block .infor_content form h5 {
+        width: 96px;
+        height: 27px;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 25px; }
+      .content_block .infor_block .infor_content form h5.ps {
+        padding-left: 8px;
+        vertical-align: top;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+      .content_block .infor_block .infor_content form input {
+        width: 209px;
+        height: 35px;
+        border-radius: 10px;
+        border: solid 1px #000000; }
+        .content_block .infor_block .infor_content form input:focus {
+          outline: none; }
+      .content_block .infor_block .infor_content form textarea {
+        height: 245px;
+        width: 207px;
+        border-radius: 10px;
+        border: solid 1px #000000; }
+        .content_block .infor_block .infor_content form textarea:focus {
+          outline: none; }

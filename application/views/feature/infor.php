@@ -1,4 +1,5 @@
 <link type="text/css" rel="stylesheet" href="css/feature.css?<?=time()?>">
+<link type="text/css" rel="stylesheet" href="css/feature_infor.css?<?=time()?>">
 
 <div class="title_block">
     <div class="content_title">
@@ -10,17 +11,24 @@
 <div class="content_block">
     <div class="process_block">
         <ul>
-            <li>
-                <p>客製化選色</p>
+            <li class="circle_1">
+                <p class="step">1</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title title_gray">客製化選色</p>
             </li>
-            <li>
-                <p>填寫訂購資料</p>
+            <li class="circle_2">
+                <p class="step">2</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title">填寫訂購資料</p>
             </li>
-            <li>
-                <p>確認內容</p>
+            <li class="circle_3">
+                <p class="step">3</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title title_gray">確認內容</p>
             </li>
-            <li>
-                <p>訂購完成</p>
+            <li class="circle_4">
+                <img src="images/great_arrow.png">
+                <p class="step_title2 title_gray">訂購完成</p>
             </li>
         </ul>
     </div>
@@ -34,9 +42,12 @@
                 <input type="text" placeholder="" name="name" id="input_name" value="">
                 <h5>*聯絡電話</h5>
                 <input type="text" placeholder="" name="phone" id="input_phone" value="">
-                <h5>備註</h5>
-                <textarea type="text" placeholder="" name="ps" id="input_ps" value="">
+                <h5 class="ps">備註</h5>
+                <textarea type="text" placeholder="" name="ps" id="input_ps" value=""></textarea>
             </form>
+        </div>
+        <div class="infor_title">
+            <h4>選擇經銷商</h4>
         </div>
         <div class="infor_sales">
             <form>
@@ -47,12 +58,12 @@
                 <br/>
                 <h5>*地區</h5>
                 <select>
-                    <option>基隆市</option>
+                    <option>中正區</option>
                 </select>
                 <br/>
                 <h5>*經銷商</h5>
                 <select>
-                    <option>基隆市</option>
+                    <option>瑞昌</option>
                 </select>
                 <br/>
             </form>
@@ -66,7 +77,12 @@
 </div>
 
 <div class="link_block">
-
+    <a>返回
+        <img>
+    </a>
+    <a>確認內容
+        <img>
+    </a>
 </div>
 
 
