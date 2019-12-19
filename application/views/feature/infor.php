@@ -67,7 +67,7 @@
                 </select>
                 <br/>
             </form>
-            <iframe width='100%' height='200' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市新生南路三段90號&z=16&output=embed&t='>
+            <iframe width='345px' height='208px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市新生南路三段90號&z=16&output=embed&t='>
             </iframe>
             <p>基隆市中正區中正路164-6號<br>
                 02-2426-6516
@@ -77,11 +77,14 @@
 </div>
 
 <div class="link_block">
-    <a>返回
-        <img>
+    <a href="/feature" class="back">返回
+        <img src="images/icon-move-left@2x.png">
     </a>
-    <a>確認內容
-        <img>
+    <a href="#" class="makesure">確認內容
+        <img src="images/icon-move-m@2x.png">
+    </a>
+    <a href="/feature" class="back_phone">返回
+        <img src="images/icon-move-left@2x.png">
     </a>
 </div>
 

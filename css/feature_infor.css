@@ -1,6 +1,10 @@
 .content_block {
   width: 415px;
   margin: 90px auto 0; }
+  @media (max-width: 530px) {
+    .content_block {
+      padding: 0 30px;
+      width: auto; } }
   .content_block .process_block {
     width: 100%;
     height: 140px; }
@@ -8,45 +12,100 @@
       height: 100%;
       width: 400px;
       margin-left: 40px; }
+      @media (max-width: 530px) {
+        .content_block .process_block ul {
+          width: 310px;
+          margin: 0 auto;
+          padding-left: 50px; } }
+      @media (max-width: 400px) {
+        .content_block .process_block ul {
+          padding-left: calc((100% - 260px) / 2);
+          width: auto; } }
       .content_block .process_block ul li {
         width: 96px;
         height: 100%;
         display: inline-block;
         vertical-align: top; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li {
+            width: 76px; } }
+        @media (max-width: 400px) {
+          .content_block .process_block ul li {
+            width: 70px; } }
         .content_block .process_block ul li p.step {
           padding-top: 14px;
           padding-left: 18px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li p.step {
+              padding-top: 8px;
+              padding-left: 12px;
+              font-size: 12px; } }
         .content_block .process_block ul li p.step_title {
           padding-top: 27px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li p.step_title {
+              font-size: 10px; } }
       .content_block .process_block ul li.circle_1, .content_block .process_block ul li.circle_2 {
         background: url(../images/process_gray.png) no-repeat;
         background-size: 45px 45px;
         background-position: 0px 0px; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li.circle_1, .content_block .process_block ul li.circle_2 {
+            background-size: 30px 30px; } }
       .content_block .process_block ul li.circle_3, .content_block .process_block ul li.circle_4 {
         background: url(../images/process_hallow2.png) no-repeat;
         background-size: 50px 50px;
         background-position: -4px -3px; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li.circle_3, .content_block .process_block ul li.circle_4 {
+            background-size: 35px 35px;
+            background-position: -2px -2px; } }
         .content_block .process_block ul li.circle_3 p.step_title, .content_block .process_block ul li.circle_4 p.step_title {
           margin-left: -10px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li.circle_3 p.step_title, .content_block .process_block ul li.circle_4 p.step_title {
+              background-size: 35px 35px;
+              background-position: -2px -2px; } }
       .content_block .process_block ul li.circle_1 p.step {
         color: white; }
       .content_block .process_block ul li.circle_1 p.step_title {
         margin-left: -18px; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li.circle_1 p.step_title {
+            margin-left: -14px; } }
       .content_block .process_block ul li.circle_2 p.step_title {
         margin-left: -24px; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li.circle_2 p.step_title {
+            margin-left: -20px; } }
       .content_block .process_block ul li.circle_3 p.step {
         color: #d8d8d8; }
       .content_block .process_block ul li.circle_4 {
         position: relative; }
+        @media (max-width: 530px) {
+          .content_block .process_block ul li.circle_4 {
+            width: 70px; } }
+        @media (max-width: 400px) {
+          .content_block .process_block ul li.circle_4 {
+            width: 38px; } }
         .content_block .process_block ul li.circle_4 img {
           position: absolute;
           width: 27px;
           height: 20px;
           top: 12px;
           left: 8px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li.circle_4 img {
+              width: 15px;
+              height: 11px;
+              top: 10px; } }
         .content_block .process_block ul li.circle_4 p.step_title2 {
           padding-top: 57px;
           margin-left: -10px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li.circle_4 p.step_title2 {
+              font-size: 10px;
+              padding-top: 47px; } }
       .content_block .process_block ul li.circle_1, .content_block .process_block ul li.circle_2, .content_block .process_block ul li.circle_3 {
         position: relative; }
         .content_block .process_block ul li.circle_1 img, .content_block .process_block ul li.circle_2 img, .content_block .process_block ul li.circle_3 img {
@@ -54,6 +113,13 @@
           top: 20px;
           left: 50px;
           width: 46px; }
+          @media (max-width: 530px) {
+            .content_block .process_block ul li.circle_1 img, .content_block .process_block ul li.circle_2 img, .content_block .process_block ul li.circle_3 img {
+              top: 14px;
+              left: 32px; } }
+          @media (max-width: 400px) {
+            .content_block .process_block ul li.circle_1 img, .content_block .process_block ul li.circle_2 img, .content_block .process_block ul li.circle_3 img {
+              width: 40px; } }
       .content_block .process_block ul p.title_gray {
         color: #d8d8d8; }
   .content_block .infor_block {
@@ -61,12 +127,18 @@
     .content_block .infor_block .infor_title {
       height: 65px;
       background-color: #e6e6e6; }
+      @media (max-width: 530px) {
+        .content_block .infor_block .infor_title {
+          height: 52px; } }
       .content_block .infor_block .infor_title h4 {
         font-size: 24px;
         color: black;
         font-weight: bold;
         padding-top: 15px;
         padding-left: 26px; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_title h4 {
+            font-size: 16px; } }
     .content_block .infor_block .infor_content {
       padding-left: 35px;
       padding-top: 32px;
@@ -76,12 +148,21 @@
       border-right: 1px solid #e6e6e6;
       border-bottom: 1px solid #e6e6e6;
       margin-bottom: 30px; }
+      @media (max-width: 530px) {
+        .content_block .infor_block .infor_content form {
+          margin: 0 auto;
+          width: 202px; } }
       .content_block .infor_block .infor_content form h5 {
         width: 96px;
         height: 27px;
         font-size: 20px;
         display: inline-block;
         margin-bottom: 25px; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_content form h5 {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px; } }
       .content_block .infor_block .infor_content form h5.ps {
         padding-left: 8px;
         vertical-align: top;
@@ -94,6 +175,10 @@
         border: solid 1px #000000; }
         .content_block .infor_block .infor_content form input:focus {
           outline: none; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_content form input {
+            width: 200px;
+            margin-bottom: 20px; } }
       .content_block .infor_block .infor_content form textarea {
         height: 245px;
         width: 207px;
@@ -101,3 +186,150 @@
         border: solid 1px #000000; }
         .content_block .infor_block .infor_content form textarea:focus {
           outline: none; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_content form textarea {
+            width: 196px; } }
+    .content_block .infor_block .infor_sales {
+      padding-left: 35px;
+      padding-top: 32px;
+      padding-right: 35px;
+      padding-bottom: 33px;
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 30px; }
+      @media (max-width: 530px) {
+        .content_block .infor_block .infor_sales form {
+          margin: 0 auto;
+          width: 202px; } }
+      .content_block .infor_block .infor_sales form h5 {
+        width: 96px;
+        height: 27px;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 25px; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_sales form h5 {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px; } }
+      .content_block .infor_block .infor_sales form input {
+        width: 209px;
+        height: 35px;
+        border-radius: 10px;
+        border: solid 1px #000000; }
+        .content_block .infor_block .infor_sales form input:focus {
+          outline: none; }
+      .content_block .infor_block .infor_sales form select {
+        width: 209px;
+        height: 35px;
+        border-radius: 10px;
+        border: solid 1px #000000;
+        padding-left: 15px; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_sales form select {
+            width: 200px;
+            margin-bottom: 20px;
+            font-size: 16px; } }
+      .content_block .infor_block .infor_sales iframe {
+        border: 1px solid black; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_sales iframe {
+            width: 200px;
+            height: 146px;
+            margin: 0 auto;
+            margin-left: calc((100% - 200px) / 2); } }
+      .content_block .infor_block .infor_sales p {
+        width: 255px;
+        height: 54px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        margin: 20px auto 0px; }
+        @media (max-width: 530px) {
+          .content_block .infor_block .infor_sales p {
+            font-size: 16px; } }
+
+.link_block {
+  width: 955px;
+  margin: 0 auto;
+  padding-bottom: 140px; }
+  @media (max-width: 1024px) {
+    .link_block {
+      width: 268px;
+      padding-bottom: 50px; } }
+  .link_block a {
+    display: inline-block;
+    height: 60px;
+    text-decoration: none;
+    position: relative; }
+    @media (max-width: 1024px) {
+      .link_block a {
+        display: block;
+        margin-right: 0; } }
+    .link_block a img {
+      width: 15px;
+      height: 26px;
+      position: absolute;
+      top: 18px;
+      left: 50px; }
+  .link_block a.back {
+    border: solid 1px #000000;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #000000;
+    margin-right: 413px;
+    width: 268px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media (max-width: 1024px) {
+      .link_block a.back {
+        display: none; } }
+  .link_block a.makesure {
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: normal;
+    color: white;
+    width: 268px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media (max-width: 1024px) {
+      .link_block a.makesure {
+        padding-left: 0;
+        padding-right: 50px; } }
+    @media (max-width: 1024px) {
+      .link_block a.makesure img {
+        left: 220px; } }
+  .link_block a.back_phone {
+    display: none; }
+    @media (max-width: 1024px) {
+      .link_block a.back_phone {
+        display: block;
+        border: solid 1px #000000;
+        background-color: white;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: normal;
+        color: #000000;
+        margin-right: 0px;
+        width: 268px;
+        padding-left: 30px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-top: 25px; }
+        .link_block a.back_phone img {
+          left: 30px; } }
