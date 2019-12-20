@@ -239,12 +239,11 @@
 
                         ul{
                             float: none;
-                            padding: 30px;
-                            padding-left: 80px;
-                            padding-right: 100px;
                             font-size: 20px;
                             overflow: hidden;
-                            
+                            box-sizing: border-box;
+                            padding: 30px 0 0;
+                            margin-bottom: 0;
                             @include susy-breakpoint($desktop-x){
                                 font-size: 18px;
                                 white-space: nowrap;
@@ -257,18 +256,30 @@
 
                             li{
                                 margin-bottom: 70px;
+                                height:140px;
+                                border-bottom:1px solid #e6e6e6;
+                                padding-left: 60px;
+    padding-right: 80px;
+                                p{
+                                    font-size:16px;
+                                    margin-bottom:24px;
+                                    span{
+                                        font-size:12px;
+                                    }
+                                }
                                 @include susy-breakpoint($desktop-x){
                                     display: inline-block;
                                     margin: auto 20px;
-                                 }
-
+                                }
                                 .color_circle{
-                                    float: right;
-                                    position: relative;
-                                    vertical-align: middle;
+                                    float: left;
+                                    vertical-align: top;
                                     width: 30px;
                                     height: 30px;
                                     border-radius: 100%;
+                                    margin-right:15px;
+                                    margin-bottom: 15px;
+
                                     @include susy-breakpoint($desktop-x){
                                        float: none;
                                        margin: auto;
@@ -466,16 +477,241 @@
                         .lable_yes{
                             margin-left: 20px!important;
                         }
-
-              
                     }
-
-                    
                 }
-        
-        
             }
-        
+        }
+    }
+}
+
+.process_block{
+    height:140px;
+    width: 400px;
+    margin: 140px auto 0;
+    ul{
+        height: 100%;
+        width: 400px;
+        margin-left: 40px;
+        @include susy-breakpoint($small_screen){
+            width:310px;
+            margin: 0 auto;
+            padding-left: 50px;
+        }
+        @include susy-breakpoint($iphone_se){
+            padding-left: calc((100% - 260px) / 2);
+            width:auto;
+        }
+        li{
+            width:96px;
+            height: 100%;
+            display:inline-block;
+            vertical-align: top;
+            @include susy-breakpoint($small_screen){
+                width:76px;
+            }
+            @include susy-breakpoint($iphone_se){
+                width:70px;
+            }
+            p.step{
+                padding-top:14px;
+                padding-left: 18px;
+                @include susy-breakpoint($small_screen){
+                    padding-top: 8px;
+                    padding-left: 12px;
+                    font-size: 12px;
+                }
+            }
+            p.step_title{
+                padding-top:27px;
+                @include susy-breakpoint($small_screen){
+                    font-size: 10px;
+                }
+            }
+        }
+        li.circle_1{
+            background: url(../images/process_gray.png) no-repeat;
+            background-size: 45px 45px;
+            background-position: 0px 0px ;
+            @include susy-breakpoint($small_screen){
+                background-size: 30px 30px; 
+            }
+        }
+        li.circle_2, li.circle_3, li.circle_4{
+            background: url(../images/process_hallow2.png) no-repeat;
+            background-size: 50px 50px;
+            background-position: -4px -3px ;
+            @include susy-breakpoint($small_screen){
+                background-size: 35px 35px;
+                background-position: -2px -2px ; 
+            }
+            p.step_title{
+                margin-left: -10px;
+                @include susy-breakpoint($small_screen){
+                    background-size: 35px 35px;
+                    background-position: -2px -2px ; 
+                }
+            }
+        }
+        li.circle_1{
+            p.step{
+                color:black;
+            }
+            p.step_title{
+                margin-left: -18px;
+                @include susy-breakpoint($small_screen){
+                    margin-left: -14px;
+                }
+            }
+        }
+        li.circle_2{
+            p.step{
+                color: #d8d8d8;
+            }
+            p.step_title{
+                margin-left: -24px;
+                @include susy-breakpoint($small_screen){
+                    margin-left: -20px;
+                }
+            }
+        }
+        li.circle_3{
+            p.step{
+                color: #d8d8d8;
+            }
+        }
+        li.circle_4{
+            position:relative;
+            @include susy-breakpoint($small_screen){
+                width:70px;
+            }
+            @include susy-breakpoint($iphone_se){
+                width:38px;
+            }
+            img{
+                position: absolute;
+                width:27px;
+                height:20px;
+                top:12px;
+                left: 8px;
+                @include susy-breakpoint($small_screen){
+                    width:15px;
+                    height:11px;
+                    top:10px;
+                }
+            }
+            p.step_title2{
+                padding-top: 57px;
+                margin-left: -10px;
+                @include susy-breakpoint($small_screen){
+                    font-size:10px;
+                    padding-top: 47px;
+                }
+            }
+        }
+        li.circle_1, li.circle_2, li.circle_3{
+            position: relative;
+            img{
+                position: absolute;
+                top:20px;
+                left: 50px;
+                width: 46px;
+                @include susy-breakpoint($small_screen){
+                    top:14px;
+                    left: 32px;
+                }
+                @include susy-breakpoint($iphone_se){
+                    width:40px;
+                }
+            }
+        }
+        p.title_gray{
+            color:#d8d8d8;
+        }
+    }
+}
+.link_block{
+    margin:0 auto;
+    width: 268px;
+    padding-bottom: 0;
+    @include susy-breakpoint($small_desktop-x){
+        width:268px;
+        padding-bottom: 50px;
+    }
+    a{
+        display:inline-block;
+        height: 60px;
+        text-decoration: none;
+        position: relative;
+        @include susy-breakpoint($small_desktop-x){
+            display:block;
+            margin-right:0;
+        }
+        img{
+            width:15px;
+            height:26px;
+            position: absolute;
+            top:18px;
+            left: 50px;
+        }
+    }
+    a.back{
+        border: solid 1px #000000;
+        background-color: white;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: normal;
+        color: #000000;
+        margin-right: 413px;
+        width: 268px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        @include susy-breakpoint($small_desktop-x){
+            display:none;
+        }
+    }
+    a.makesure{
+        background-color:black;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: normal;
+        color: white;
+        width: 268px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        @include susy-breakpoint($small_desktop-x){
+            padding-left: 0;
+            padding-right:50px;
+        }
+        img{
+            @include susy-breakpoint($small_desktop-x){
+                left:220px;
+            }
+        }
+    }
+    a.back_phone{
+        display:none;
+        @include susy-breakpoint($small_desktop-x){
+            display:block;
+            border: solid 1px #000000;
+            background-color: white;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: normal;
+            color: #000000;
+            margin-right: 0px;
+            width: 268px;
+            padding-left: 30px;
+            box-sizing: border-box;
+            margin-top:25px;
+            img{
+                left:30px;
+            }
         }
     }
 }

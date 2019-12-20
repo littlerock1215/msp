@@ -69,14 +69,58 @@
                         <div style="display:none;" class="color_block clearfix">
 
                                 <ul id="product_ul">
-                                    <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>
+                                        <p>下座&nbsp;&nbsp;
+                                            <span>黑</span>
+                                        </p>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <br/>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                    </li>
+                                    <li>
+                                        <p>筒身&nbsp;&nbsp;
+                                            <span>黑</span>
+                                        </p>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <br/>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                    </li>
+                                    <li>
+                                        <p>上調整鈕&nbsp;&nbsp;
+                                            <span>黑</span>
+                                        </p>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <br/>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                    </li>
+                                    <!-- <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li> -->
+                                    <!-- <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
                                     <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
                                     <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                    <li>下座 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                    <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                    <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
-                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
+                                    <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li> -->
                                 </ul>
 
                         </div>
@@ -188,6 +232,35 @@
         </div>
     </div>
 
+    <div class="process_block">
+        <ul>
+            <li class="circle_1">
+                <p class="step">1</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title">客製化選色</p>
+            </li>
+            <li class="circle_2">
+                <p class="step">2</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title title_gray">填寫訂購資料</p>
+            </li>
+            <li class="circle_3">
+                <p class="step">3</p>
+                <img src="images/Path@2x.png">
+                <p class="step_title title_gray">確認內容</p>
+            </li>
+            <li class="circle_4">
+                <img src="images/great_arrow.png">
+                <p class="step_title2 title_gray">訂購完成</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="link_block">
+        <a href="#" class="makesure">填寫訂購資料
+            <img src="images/icon-move-m@2x.png">
+        </a>
+    </div>
 </div>
 
 

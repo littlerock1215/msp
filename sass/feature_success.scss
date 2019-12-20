@@ -1,0 +1,46 @@
+@import "_base";
+
+.content_block{
+    .content{
+        margin:121px auto 121px;
+        text-align: center;
+
+        h2{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            margin-bottom: 10px;
+            @include susy-breakpoint($small_screen){
+                font-size: 18px;
+            }
+        }
+        h4{
+            font-size: 16px;
+            font-weight: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            margin-bottom: 29px;
+            @include susy-breakpoint($small_screen){
+                font-size: 16px;
+            }
+        }
+        h3{
+            font-size: 20px;
+            font-weight: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+            @include susy-breakpoint($mid-pad-x){   
+                padding-left:26px;
+                padding-right:26px;
+            }
+            @include susy-breakpoint($small_screen){
+                font-size: 16px;
+            }
+        }
+    }
+}
