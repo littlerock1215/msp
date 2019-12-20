@@ -1,0 +1,113 @@
+.detail_block {
+  width: 800px;
+  margin: 0 auto; }
+  .detail_block .left_block {
+    float: left; }
+    @media (max-width: 900px) {
+      .detail_block .left_block {
+        float: none; } }
+    .detail_block .left_block p {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #f74e4e;
+      text-align: center; }
+  .detail_block h1 {
+    text-align: center;
+    font-size: 48px; }
+  .detail_block .product_img_block {
+    width: 393px;
+    height: 497px;
+    background-image: url(../slick/images/img-uf-2@3x.png);
+    background-size: contain;
+    display: block;
+    margin: auto; }
+
+.infor_block {
+  width: 50%;
+  float: right;
+  margin: 30px auto 0; }
+  @media (max-width: 900px) {
+    .infor_block {
+      width: 50%;
+      float: none; } }
+  .infor_block .infor_title {
+    height: 65px;
+    background-color: #e6e6e6; }
+    @media (max-width: 530px) {
+      .infor_block .infor_title {
+        height: 52px; } }
+    .infor_block .infor_title h4 {
+      font-size: 24px;
+      color: black;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-left: 26px; }
+      @media (max-width: 530px) {
+        .infor_block .infor_title h4 {
+          font-size: 16px; } }
+  .infor_block .infor_content {
+    padding-left: 35px;
+    padding-top: 32px;
+    padding-right: 35px;
+    padding-bottom: 33px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 30px; }
+    .infor_block .infor_content h5 {
+      font-size: 20px; }
+    .infor_block .infor_content h5.title_underline {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      padding-top: 4px; }
+    .infor_block .infor_content h6 {
+      font-size: 20px;
+      padding-left: 74px;
+      margin-bottom: 4px; }
+  .infor_block .infor_sales {
+    padding-left: 35px;
+    padding-top: 32px;
+    padding-right: 35px;
+    padding-bottom: 33px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 30px; }
+    .infor_block .infor_sales h5 {
+      font-size: 20px; }
+    .infor_block .infor_sales h5.title_underline {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 24px;
+      margin-top: 24px;
+      padding-top: 4px; }
+    .infor_block .infor_sales h6 {
+      font-size: 20px;
+      padding-left: 74px;
+      margin-bottom: 4px; }
+    .infor_block .infor_sales iframe {
+      border: 1px solid black;
+      margin-top: 24px; }
+      @media (max-width: 530px) {
+        .infor_block .infor_sales iframe {
+          width: 200px;
+          height: 146px;
+          margin: 0 auto;
+          margin-left: calc((100% - 200px) / 2); } }
+    .infor_block .infor_sales p {
+      width: 255px;
+      height: 54px;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      margin: 20px auto 0px; }
+      @media (max-width: 530px) {
+        .infor_block .infor_sales p {
+          font-size: 16px; } }

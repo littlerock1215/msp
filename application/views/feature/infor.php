@@ -17,7 +17,7 @@
                 <p class="step_title title_gray">客製化選色</p>
             </li>
             <li class="circle_2">
-                <p class="step">2</p>
+                <p class="step" style="color:black">2</p>
                 <img src="images/Path@2x.png">
                 <p class="step_title">填寫訂購資料</p>
             </li>
@@ -80,7 +80,7 @@
     <a href="/feature" class="back">返回
         <img src="images/icon-move-left@2x.png">
     </a>
-    <a href="#" class="makesure">確認內容
+    <a href="feature_check" class="makesure">確認內容
         <img src="images/icon-move-m@2x.png">
     </a>
     <a href="/feature" class="back_phone">返回

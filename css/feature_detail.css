@@ -1,0 +1,36 @@
+.color_circle2 {
+  float: left;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .color_circle2 p {
+    position: absolute;
+    top: 40px;
+    left: 5px; }
+
+.container_block {
+  height: 100%;
+  overflow: hidden; }
+  .container_block .product_img_block {
+    width: 207px;
+    height: 206px; }
+
+.color_block {
+  padding-left: 30px;
+  padding-right: 30px; }
+  .color_block ul {
+    height: 256px;
+    overflow: scroll;
+    padding-left: 0; }
+    .color_block ul li {
+      border: 1px solid #e6e6e6;
+      height: 140px;
+      padding: 10px 10px 10px;
+      list-style: none; }
+      .color_block ul li p {
+        font-size: 16px; }
+        .color_block ul li p span {
+          font-size: 12px; }

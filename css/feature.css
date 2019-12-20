@@ -128,6 +128,33 @@
         float: none;
         width: auto;
         margin-top: 20px; } }
+    .product_block .right_block .product_style_block a.color_phone {
+      display: none;
+      width: 415px;
+      height: 65px;
+      background-color: #e6e6e6;
+      border: none;
+      font-size: 20px;
+      position: relative;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 25px 15px;
+      padding-top: 20px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative; }
+      @media (max-width: 1139px) {
+        .product_block .right_block .product_style_block a.color_phone {
+          display: block;
+          width: 100%;
+          font-size: 18px; } }
+      .product_block .right_block .product_style_block a.color_phone img {
+        position: absolute;
+        width: 12px;
+        height: 22px;
+        top: 20px;
+        right: 27px; }
     .product_block .right_block .product_style_block ul {
       float: right;
       margin-bottom: 25px; }
@@ -181,9 +208,13 @@
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             padding: 30px 0 0;
-            margin-bottom: 0; }
+            margin-bottom: 0;
+            height: 570px;
+            overflow: scroll;
+            box-sizing: border-box; }
             @media (max-width: 1139px) {
               .product_block .right_block .product_style_block ul li .color_block ul {
+                display: none;
                 font-size: 18px;
                 white-space: nowrap;
                 padding-left: 15px;
@@ -355,11 +386,18 @@
             margin-left: 45px !important; }
           .product_block .right_block .product_style_block ul li .select_other_block .lable_yes {
             margin-left: 20px !important; }
+      @media (max-width: 1139px) {
+        .product_block .right_block .product_style_block ul li.color_desktop {
+          display: none; } }
 
 .process_block {
   height: 140px;
   width: 400px;
   margin: 140px auto 0; }
+  @media (max-width: 530px) {
+    .process_block {
+      width: 100%;
+      height: 140px; } }
   .process_block ul {
     height: 100%;
     width: 400px;

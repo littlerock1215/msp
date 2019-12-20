@@ -1,0 +1,134 @@
+@import "_base";
+
+.detail_block{
+    width: 800px;
+    margin: 0 auto;
+    .left_block{
+        float:left;
+        @include susy-breakpoint(('max-width':900px)){
+            float:none;
+        }
+        p{
+            font-size: 16px;
+            font-weight: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #f74e4e;
+            text-align: center;
+        }
+    }
+    h1{
+        text-align: center;
+        font-size: 48px;
+    }
+    .product_img_block{
+        width: 393px;
+        height: 497px;
+        background-image: url(../slick/images/img-uf-2@3x.png);
+        background-size: contain;
+        display: block;
+        margin: auto;
+    }
+}
+.infor_block{
+    width:50%;
+    float:right;
+    margin: 30px auto 0;
+    @include susy-breakpoint(('max-width':900px)){
+        width:50%;
+        float:none;
+    }
+    .infor_title{
+        height:65px;
+        background-color:#e6e6e6;
+        @include susy-breakpoint($small_screen){
+            height:52px;
+        }
+        h4{
+            font-size: 24px;
+            color: black;
+            font-weight: bold;
+            padding-top: 15px;
+            padding-left: 26px;
+            @include susy-breakpoint($small_screen){
+                font-size:16px;
+            }
+        }
+    }
+    .infor_content{
+        padding-left: 35px;
+        padding-top: 32px;
+        padding-right: 35px;
+        padding-bottom: 33px;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 30px;
+        h5{
+            font-size:20px;
+        }
+        h5.title_underline{
+            padding-bottom:10px;
+            border-bottom:1px solid #e6e6e6;
+            margin-top:24px;
+            margin-bottom:24px;
+            padding-top:4px;
+        }
+        h6{
+            font-size:20px;
+            padding-left: 74px;
+            margin-bottom: 4px;
+        }
+    }
+    .infor_sales{
+        padding-left: 35px;
+        padding-top: 32px;
+        padding-right: 35px;
+        padding-bottom: 33px;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 30px;
+        h5{
+            font-size:20px;
+
+        }
+        h5.title_underline{
+            padding-bottom:10px;
+            border-bottom:1px solid #e6e6e6;
+            margin-bottom:24px;
+            margin-top:24px;
+            padding-top:4px;
+        }
+        h6{
+            font-size:20px;
+            padding-left: 74px;
+            margin-bottom: 4px;
+        }
+        iframe{
+            border:1px solid black;
+            margin-top:24px;
+            
+            @include susy-breakpoint($small_screen){
+                width:200px;
+                height:146px;
+                margin: 0 auto;
+                margin-left: calc((100% - 200px) / 2);
+            }
+        }
+        p{
+            width: 255px;
+            height: 54px;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000000;
+            margin:20px auto 0px;
+            @include susy-breakpoint($small_screen){
+                font-size:16px;
+            }
+        }
+    }
+}

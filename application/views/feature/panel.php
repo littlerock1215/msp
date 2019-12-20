@@ -63,9 +63,13 @@
         <div class="right_block">
             <div class="product_style_block clearfix">
 
+                <a class="color_phone" href="/feature_color">選擇色彩
+                    <img src="images/icon-move-s@2x.png">
+                </a>
+                    
                 <ul class="menu_product_style_ul">
 
-                    <li><a  href="" data-target="color">選擇色彩<i class="product_style_fal fal fa-angle-down"></i></a>
+                    <li class="color_desktop"><a  href="" data-target="color">選擇色彩<i class="product_style_fal fal fa-angle-down"></i></a>
                         <div style="display:none;" class="color_block clearfix">
 
                                 <ul id="product_ul">
@@ -114,6 +118,36 @@
                                         <div class="color_circle" style="background-color:black;"></div>
                                         <div class="color_circle" style="background-color:black;"></div>
                                     </li>
+                                    <li>
+                                        <p>預戴螺帽+托盤&nbsp;&nbsp;
+                                            <span>黑</span>
+                                        </p>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <br/>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                    </li>
+                                    <li>
+                                        <p>下座&nbsp;&nbsp;
+                                            <span>黑</span>
+                                        </p>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <br/>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                        <div class="color_circle" style="background-color:black;"></div>
+                                    </li>
                                     <!-- <li>筒身 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
                                     <li>上調整鈕 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li>
                                     <li>預戴螺帽+托盤 <div class="color_circle" style="background-color:black;"><p>黑</p> </div></li> -->
@@ -125,7 +159,7 @@
 
                         </div>
                     </li>
-                        
+                    
                     <li><a href="" data-target="other">其他配置<i class="product_style_fal fal fa-angle-down"></i></a>
                         <div style="display:none;" class="other_block clearfix">
 
@@ -257,7 +291,7 @@
     </div>
 
     <div class="link_block">
-        <a href="#" class="makesure">填寫訂購資料
+        <a href="/feature_infor" class="makesure">填寫訂購資料
             <img src="images/icon-move-m@2x.png">
         </a>
     </div>
