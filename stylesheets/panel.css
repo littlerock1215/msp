@@ -185,6 +185,8 @@
             -webkit-transition-duration: .2s;
             -o-transition-duration: .2s;
             transition-duration: .2s; }
+          .panel .block2 ul.slick_content li a:focus {
+            outline: none; }
           .panel .block2 ul.slick_content li a img {
             height: 292px; }
             @media (max-width: 1172px) {

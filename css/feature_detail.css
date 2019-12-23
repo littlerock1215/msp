@@ -27,7 +27,8 @@
     padding-left: 0;
     overflow: auto;
     overflow-y: scroll;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    margin-top: 15px; }
     .color_block ul li {
       border: 1px solid #e6e6e6;
       height: 140px;

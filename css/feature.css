@@ -30,7 +30,8 @@
       outline: none; }
     @media (max-width: 1139px) {
       .select_block select {
-        width: 280px; } }
+        width: 280px;
+        background-position: 240px 18px; } }
 
 .slick_block {
   width: 450px;
@@ -111,15 +112,15 @@
       margin: auto; }
       @media (max-width: 1139px) {
         .product_block .left_block .product_img_block {
-          width: 290px;
-          height: 497px;
+          width: 207px;
+          height: 313px;
           background-size: cover;
           background-position: 35%; } }
     .product_block .left_block p {
       font-size: 16px;
       color: #f74e4e;
       text-align: center;
-      margin-top: 25px; }
+      margin-top: 15px; }
   .product_block .right_block {
     float: left;
     width: 50%; }
@@ -127,7 +128,7 @@
       .product_block .right_block {
         float: none;
         width: auto;
-        margin-top: 20px; } }
+        margin-top: 15px; } }
     .product_block .right_block .product_style_block a.color_phone {
       display: none;
       width: 415px;
@@ -166,7 +167,7 @@
         margin-top: 10px; }
         .product_block .right_block .product_style_block ul li a {
           width: 424px;
-          height: 65px;
+          height: 52px;
           display: block;
           background-color: #e6e6e6;
           border: none;
@@ -175,8 +176,7 @@
           text-decoration: none;
           color: black;
           font-weight: bold;
-          padding: 25px 15px;
-          padding-top: 20px;
+          padding: 16px 15px;
           -webkit-box-sizing: border-box;
           box-sizing: border-box; }
           @media (max-width: 1139px) {
@@ -206,7 +206,7 @@
             font-size: 20px;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
-            padding: 30px 0 0;
+            padding: 15px 0 0;
             margin-bottom: 0;
             height: 570px;
             box-sizing: border-box;
@@ -224,7 +224,6 @@
                 overflow-x: auto;
                 padding-bottom: 50px; } }
             .product_block .right_block .product_style_block ul li .color_block ul li {
-              margin-bottom: 70px;
               height: 140px;
               border-bottom: 1px solid #e6e6e6;
               padding-left: 60px;

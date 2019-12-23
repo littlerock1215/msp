@@ -76,8 +76,14 @@
                 &:hover{
                     border-bottom: 2px solid black;
                     padding:19px 0 18px;
+                    @include susy-breakpoint($small_screen){
+                        border-bottom: 1px solid black;
+                        padding: 19px 0;
+                    }
                     span.news_arrow{
-                        display:block;
+                        display:block;@include susy-breakpoint($small_screen){
+                            display:none;
+                        }
                     }
                 }
                 span.content_title{

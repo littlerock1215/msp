@@ -222,6 +222,9 @@
                             transition-duration: .2s;  
                         }
                     }
+                    &:focus{
+                        outline:none;
+                    }
                     img{
                         //width: 230px;
                         height: 292px;

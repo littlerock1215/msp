@@ -65,8 +65,15 @@
     .content_block ul li a:hover {
       border-bottom: 2px solid black;
       padding: 19px 0 18px; }
+      @media (max-width: 530px) {
+        .content_block ul li a:hover {
+          border-bottom: 1px solid black;
+          padding: 19px 0; } }
       .content_block ul li a:hover span.news_arrow {
         display: block; }
+        @media (max-width: 530px) {
+          .content_block ul li a:hover span.news_arrow {
+            display: none; } }
     .content_block ul li a span.content_title {
       margin-left: 80px;
       font-size: 20px;
