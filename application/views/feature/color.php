@@ -1,6 +1,8 @@
 <link type="text/css" rel="stylesheet" href="css/feature.css?<?=time()?>">
 <link type="text/css" rel="stylesheet" href="css/feature_detail.css?<?=time()?>">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
 <div class="container_block clearfix">
     <div class="product_block clearfix" style="margin-top:0">
         <div class="left_block">
@@ -9,7 +11,7 @@
             <p style="font-size:12px">實際顏色以本公司出貨為主</p>
         </div>
         <div class="color_block">
-            <ul>
+            <ul class="style-2">
                 <li>
                     <p>下座&nbsp;&nbsp;
                         <span>黑</span>
@@ -140,7 +142,7 @@
         </div> -->
     </div>
 
-    <div class="link_block" style="width:100%">
+    <div class="link_block" style="width:100%; position:absolute;padding-bottom:0; bottom:0">
         <a href="/feature" class="makesure" style="width:100%">完成</a>
     </div>
 </div>
@@ -202,6 +204,9 @@
     $(document).ready(function(){
         $('.level').perfectScrollbar();
 
+        if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
     });
 
 </script>

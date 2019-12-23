@@ -148,6 +148,9 @@
       border-right: 1px solid #e6e6e6;
       border-bottom: 1px solid #e6e6e6;
       margin-bottom: 30px; }
+      @media (max-width: 400px) {
+        .content_block .infor_block .infor_content {
+          padding-left: 28px; } }
       @media (max-width: 530px) {
         .content_block .infor_block .infor_content form {
           margin: 0 auto;
@@ -198,6 +201,9 @@
       border-right: 1px solid #e6e6e6;
       border-bottom: 1px solid #e6e6e6;
       margin-bottom: 30px; }
+      @media (max-width: 400px) {
+        .content_block .infor_block .infor_sales {
+          padding-left: 28px; } }
       @media (max-width: 530px) {
         .content_block .infor_block .infor_sales form {
           margin: 0 auto;
@@ -251,7 +257,8 @@
         margin: 20px auto 0px; }
         @media (max-width: 530px) {
           .content_block .infor_block .infor_sales p {
-            font-size: 16px; } }
+            font-size: 16px;
+            width: auto; } }
 
 .link_block {
   width: 955px;
@@ -333,3 +340,7 @@
         margin-top: 25px; }
         .link_block a.back_phone img {
           left: 30px; } }
+
+@media (max-width: 900px) {
+  #process_block_infopage {
+    margin: 30px auto 0; } }

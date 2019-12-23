@@ -9,7 +9,7 @@
 </div>
 
 <div class="content_block">
-    <div class="process_block">
+    <div class="process_block" id="process_block_infopage">
         <ul>
             <li class="circle_1">
                 <p class="step">1</p>

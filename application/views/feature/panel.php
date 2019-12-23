@@ -1,4 +1,5 @@
 <link type="text/css" rel="stylesheet" href="css/feature.css?<?=time()?>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 
 <div class="title_block">
     <div class="content_title">
@@ -72,7 +73,7 @@
                     <li class="color_desktop"><a  href="" data-target="color">選擇色彩<i class="product_style_fal fal fa-angle-down"></i></a>
                         <div style="display:none;" class="color_block clearfix">
 
-                                <ul id="product_ul">
+                                <ul id="product_ul" class="style-2">
                                     <li>
                                         <p>下座&nbsp;&nbsp;
                                             <span>黑</span>
@@ -358,6 +359,9 @@
     $(document).ready(function(){
         $('.level').perfectScrollbar();
 
+        if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
     });
 
 </script>

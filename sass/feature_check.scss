@@ -3,10 +3,15 @@
 .detail_block{
     width: 800px;
     margin: 0 auto;
+    @include susy-breakpoint(('max-width':900px)){
+        width:auto;
+    }
     .left_block{
         float:left;
         @include susy-breakpoint(('max-width':900px)){
             float:none;
+            margin: 0 auto;
+            width: 50%;
         }
         p{
             font-size: 16px;
@@ -28,6 +33,10 @@
         background-size: contain;
         display: block;
         margin: auto;
+        @include susy-breakpoint(('max-width':900px)){
+            width:207px;
+            height:261px;
+        }
     }
 }
 .infor_block{
@@ -37,6 +46,10 @@
     @include susy-breakpoint(('max-width':900px)){
         width:50%;
         float:none;
+    }
+    @include susy-breakpoint($small_screen){
+        width:70%;
+        
     }
     .infor_title{
         height:65px;
@@ -66,6 +79,9 @@
         margin-bottom: 30px;
         h5{
             font-size:20px;
+            @include susy-breakpoint($small_screen){
+                font-size:18px;     
+            }
         }
         h5.title_underline{
             padding-bottom:10px;
@@ -76,8 +92,14 @@
         }
         h6{
             font-size:20px;
-            padding-left: 74px;
+            padding-left: 60px;
             margin-bottom: 4px;
+            @include susy-breakpoint(('max-width':900px)){
+                padding-left: 0px;
+            }
+            @include susy-breakpoint($small_screen){
+                font-size:16px;     
+            }
         }
     }
     .infor_sales{
@@ -91,7 +113,9 @@
         margin-bottom: 30px;
         h5{
             font-size:20px;
-
+            @include susy-breakpoint($small_screen){
+                font-size:18px;     
+            }
         }
         h5.title_underline{
             padding-bottom:10px;
@@ -102,17 +126,28 @@
         }
         h6{
             font-size:20px;
-            padding-left: 74px;
+            padding-left: 60px;
             margin-bottom: 4px;
+            @include susy-breakpoint(('max-width':900px)){
+                padding-left: 0px;
+            }
+            @include susy-breakpoint($small_screen){
+                font-size:16px;     
+            }
         }
         iframe{
             border:1px solid black;
             margin-top:24px;
-            
-            @include susy-breakpoint($small_screen){
+            @include susy-breakpoint(('max-width':900px)){
                 width:200px;
                 height:146px;
                 margin: 0 auto;
+                margin-left: calc((100% - 200px) / 2);
+            }
+            @include susy-breakpoint($small_screen){
+                width:200px;
+                height:146px;
+                margin: 20px auto 0;
                 margin-left: calc((100% - 200px) / 2);
             }
         }
@@ -126,9 +161,36 @@
             text-align: center;
             color: #000000;
             margin:20px auto 0px;
+            @include susy-breakpoint(('max-width':900px)){
+                width:auto;
+            }
             @include susy-breakpoint($small_screen){
                 font-size:16px;
             }
         }
+    }
+}
+li#circle3_check{
+    background: url(../images/process_gray.png) no-repeat;
+    background-size: 45px 45px;
+    background-position: 0px 0px;
+    @include susy-breakpoint($small_screen){
+        background-size: 30px 30px;
+    }
+}
+#link_block_checkpage{
+    @include susy-breakpoint($small_screen){
+        width:242px;
+    }
+}
+a#makesure_checkpage, a#back_checkpage{
+    @include susy-breakpoint($small_screen){
+        width:242px;
+        height:60px;
+    }
+}
+#process_block_checkpage{
+    @include susy-breakpoint(('max-width':900px)){
+        margin:30px auto 0;
     }
 }

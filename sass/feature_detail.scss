@@ -23,6 +23,7 @@
 .container_block{
     height: 100%;
     overflow: hidden;
+    position:relative;
     .product_img_block{
         width:207px;
         height:206px;
@@ -32,9 +33,11 @@
     padding-left: 30px;
     padding-right:30px;
     ul{
-        height: 256px;
-        overflow: scroll;
+        height: 374px;
         padding-left: 0;
+        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
 
         li{
             border: 1px solid #e6e6e6;

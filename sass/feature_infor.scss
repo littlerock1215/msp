@@ -176,6 +176,9 @@
             border-right: 1px solid #e6e6e6;
             border-bottom: 1px solid #e6e6e6;
             margin-bottom: 30px;
+            @include susy-breakpoint($iphone_se){
+                padding-left: 28px;
+            }
             form{
                 @include susy-breakpoint($small_screen){
                     margin: 0 auto;
@@ -234,6 +237,9 @@
             border-right: 1px solid #e6e6e6;
             border-bottom: 1px solid #e6e6e6;
             margin-bottom: 30px;
+            @include susy-breakpoint($iphone_se){
+                padding-left: 28px;
+            }
             form{
                 @include susy-breakpoint($small_screen){
                     margin: 0 auto;
@@ -294,6 +300,7 @@
                 margin:20px auto 0px;
                 @include susy-breakpoint($small_screen){
                     font-size:16px;
+                    width:auto;
                 }
             }
         }
@@ -384,5 +391,10 @@
             }
         }
         
+    }
+}
+#process_block_infopage{
+    @include susy-breakpoint(('max-width':900px)){
+        margin:30px auto 0;
     }
 }
