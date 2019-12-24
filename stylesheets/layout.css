@@ -422,7 +422,10 @@ footer {
   background-color: #e6e6e6; }
   @media (max-width: 1139px) {
     footer {
-      height: 458px; } }
+      height: 423px; } }
+  @media (max-width: 530px) {
+    footer {
+      height: 483px; } }
   footer .footer_block {
     margin: 0 auto;
     height: 100%;
@@ -468,7 +471,8 @@ footer {
     footer .footer_block h6 {
       font-size: 12px;
       text-align: center;
-      margin-top: 25px; }
+      margin-top: 25px;
+      margin-bottom: 25px; }
     footer .footer_block .social_link {
       position: absolute;
       right: 50px;
