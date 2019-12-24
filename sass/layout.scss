@@ -66,7 +66,7 @@ header.header{
         background:url(../images/img-logo@2x.png) no-repeat;
         background-size:155px 39px;
         background-position: 0px 0;
-        @include susy-breakpoint($small_screen){
+        @include susy-breakpoint($small_desktop-x){
             top:30px;
         }
         @include susy-breakpoint($iphone_se){

@@ -230,7 +230,7 @@ header.header {
     background: url(../images/img-logo@2x.png) no-repeat;
     background-size: 155px 39px;
     background-position: 0px 0; }
-    @media (max-width: 530px) {
+    @media (max-width: 1024px) {
       header.header a.logo {
         top: 30px; } }
     @media (max-width: 400px) {
