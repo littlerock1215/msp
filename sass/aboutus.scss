@@ -86,6 +86,7 @@
     }
     p{
         line-height: normal;
+        font-size:20px;
         @include susy-breakpoint($small_desktop-x){
             font-size:16px;
         }
