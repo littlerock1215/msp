@@ -101,14 +101,14 @@
         width: auto;
         max-width: 1280px;
         @include susy-breakpoint($pad-x){
-            height:500px;
+            height:430px;
         }
         @include susy-breakpoint($small_desktop-x){
             //width:100%;
             background-size: cover;
         }
         @include susy-breakpoint($small_screen){
-            height: 414px;
+            height: 384px;
         }
         ul.slick_title{
             width:520px;
@@ -192,6 +192,9 @@
                 @include susy-breakpoint($pad-x){
                     height: 273px;
                 }
+                @include susy-breakpoint($mid-pad-x){
+                    height: 203px;
+                }
                 a{
                     text-decoration: none;
                     display:block;
@@ -203,6 +206,9 @@
                     background-color: white;
                     @include susy-breakpoint($pad-x){
                         //width:126px;
+                    }
+                    @include susy-breakpoint($mid-pad-x){
+                        padding-top:15px;
                     }
                     @include susy-breakpoint($small_screen){
                         height:80%;
@@ -219,7 +225,17 @@
                             transform: scale(1.1);
                             -webkit-transition-duration: .2s;
                             -o-transition-duration: .2s;
-                            transition-duration: .2s;  
+                            transition-duration: .2s; 
+                            @include susy-breakpoint($small_screen){
+                                -moz-transform: initial;
+                                -webkit-transform: initial;
+                                -o-transform: initial;
+                                -ms-transform: initial;
+                                transform: initial;
+                                -webkit-transition-duration: initial;
+                                -o-transition-duration: initial;
+                                transition-duration: initial; 
+                            } 
                         }
                     }
                     &:focus{
