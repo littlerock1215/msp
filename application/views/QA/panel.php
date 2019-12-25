@@ -25,19 +25,20 @@
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button type="button" class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <!-- <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div> -->
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button type="button" class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button type="button" class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
                 </ul>
             </div>
@@ -47,19 +48,19 @@
                     <li class="click_item">
                         <div class="question"> Q. 售後服務?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
                 </ul>
             </div>
@@ -69,19 +70,19 @@
                     <li class="click_item">
                         <div class="question"> Q. 相關零件?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
                 </ul>
             </div>
@@ -91,19 +92,19 @@
                     <li class="click_item">
                         <div class="question"> Q. 其他問題?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
 
                     <li class="click_item">
                         <div class="question"> Q. MSP主要業務內容為?</div>
                         <button class="answer_button"></button>
-                        <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                        <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                     </li>
                 </ul>
             </div>
@@ -121,19 +122,19 @@
                         <li class="click_item">
                             <div class="question"> Q. 購車?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
                     </ul>
                 </div>
@@ -145,19 +146,19 @@
                         <li class="click_item">
                             <div class="question"> Q. 售後服務?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
                     </ul>
                 </div>
@@ -169,19 +170,19 @@
                         <li class="click_item">
                             <div class="question"> Q. 零件相關?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
                     </ul>
                 </div>
@@ -193,19 +194,19 @@
                         <li class="click_item">
                             <div class="question"> Q. 其他問題?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
 
                         <li class="click_item">
                             <div class="question"> Q. MSP主要業務內容為?</div>
                             <button class="answer_button"></button>
-                            <div class="answer">A. 初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
+                            <div class="answer"><span>A. </span>初期以「速克達」機車賽事用之排氣管為主力產品，後期研發製造高性能避震器</div>
                         </li>
                     </ul>
                 </div>

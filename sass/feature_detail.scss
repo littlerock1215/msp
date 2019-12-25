@@ -24,6 +24,14 @@
     height: 100%;
     overflow: hidden;
     position:relative;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    overflow: auto;
     .product_img_block{
         width:207px;
         height:206px;
@@ -33,7 +41,8 @@
     padding-left: 30px;
     padding-right:30px;
     ul{
-        height: 374px;
+        //height: 374px;
+        height: calc(100% - 300px);
         padding-left: 0;
         overflow: auto;
         overflow-y: scroll;

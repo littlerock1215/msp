@@ -107,8 +107,14 @@
             //width:100%;
             background-size: cover;
         }
+        @include susy-breakpoint($mid-pad-x){
+            height:400px;
+        }
         @include susy-breakpoint($small_screen){
-            height: 384px;
+            height: 344px;
+        }
+        @include susy-breakpoint($iphone_se){
+            height: 294px;
         }
         ul.slick_title{
             width:520px;
@@ -121,6 +127,10 @@
             @include susy-breakpoint($small_screen){
                 width:auto;
                 text-align: center;
+            }
+            @include susy-breakpoint($iphone_se){
+                padding-bottom: 20px;
+                padding-top:30px;
             }
             li{
                 display:inline-block;
@@ -191,9 +201,21 @@
                 margin-left: 10px;
                 @include susy-breakpoint($pad-x){
                     height: 273px;
+                    margin-left:60px;
+                }
+                @include susy-breakpoint($small_desktop-x){
+                    margin-left:20%;
                 }
                 @include susy-breakpoint($mid-pad-x){
+                    height: 233px;
+                    margin-left:18%;
+                }
+                @include susy-breakpoint($small_screen){
                     height: 203px;
+                    margin-left:12%;
+                }
+                @include susy-breakpoint($iphone_se){
+                    height:190px;
                 }
                 a{
                     text-decoration: none;
@@ -211,11 +233,11 @@
                         padding-top:15px;
                     }
                     @include susy-breakpoint($small_screen){
-                        height:80%;
+                        height:100%;
                     }
-                    // @include susy-breakpoint($small_desktop-x){
-                    //     width:126px;
-                    // }
+                    @include susy-breakpoint($iphone_se){
+                        padding-top:30px;
+                    }
                     &:hover{
                         img{
                             -moz-transform: scale(1.1);
@@ -251,16 +273,14 @@
                             //margin-left: calc((100% - 126px) / 2);
                         }
                         @include susy-breakpoint($mid-pad-x){
-                            height:120px;
+                            height:150px;
                         }
                         @include susy-breakpoint($small_screen){
-                            height:100px;
+                            height:120px;
                         }
-                        // @include susy-breakpoint($small_desktop-x){
-                        //     width: 126px;
-                        //     height: 161px;
-                        //     margin-left: calc((100% - 126px) / 2);
-                        // }
+                        @include susy-breakpoint($iphone_se){
+                            height:95px;
+                        }
                     }
                     img.product_name{
                         width:63px;
@@ -275,6 +295,7 @@
                         }
                         @include susy-breakpoint($small_screen){
                             font-size:12px;
+                            margin-top: 15px;
                         }
                     }
                 }

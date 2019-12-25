@@ -276,20 +276,13 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
 
         responsive: [
-    
             {
-                breakpoint: 530,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1
                 }
-                // breakpoint: 400,
-                // settings: {
-                //     slidesToShow: 2,
-                //     slidesToScroll: 1
-                // }
             }
-
         ]
     };
 

@@ -56,7 +56,13 @@
       margin-top: 15px;
       font-size: 18px;
       line-height: 20px;
-      display: none; }
+      display: none;
+      position: relative;
+      padding-left: 24px; }
+      .qa_block .right_block ul li .answer span {
+        position: absolute;
+        top: 0;
+        left: 2px; }
   .qa_block .right_block ul :nth-child(1) {
     margin-top: 0px; }
 
@@ -118,4 +124,10 @@
           margin-top: 15px;
           font-size: 18px;
           line-height: 20px;
-          display: none; }
+          display: none;
+          position: relative;
+          padding-left: 24px; }
+          .mobile_qa_block ul li ul li .answer span {
+            position: absolute;
+            top: 0;
+            left: 2px; }

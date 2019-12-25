@@ -332,7 +332,11 @@ header.header {
         @media (max-width: 1024px) {
           header.header ul.nav_mainpage li.product ul {
             top: 30px;
-            left: -34px; } }
+            left: -34px;
+            box-shadow: initial;
+            -webkit-box-shadow: initial;
+            -moz-box-shadow: initial;
+            -o-box-shadow: initial; } }
         @media (max-width: 530px) {
           header.header ul.nav_mainpage li.product ul {
             left: -12px;

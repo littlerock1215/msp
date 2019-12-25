@@ -83,7 +83,8 @@
           margin-left: 30px; } }
       @media (max-width: 530px) {
         .content_block ul li a span.content_title {
-          font-size: 16px; } }
+          font-size: 16px;
+          margin-left: 15px; } }
     .content_block ul li a span.news_arrow {
       display: none;
       background: url(../images/icon-move-s@2x.png) no-repeat;
