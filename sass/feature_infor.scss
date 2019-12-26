@@ -32,7 +32,7 @@
                     width:76px;
                 }
                 @include susy-breakpoint($iphone_se){
-                    width:70px;
+                    width:66px;
                 }
                 p.step{
                     padding-top:14px;
@@ -101,7 +101,7 @@
             li.circle_4{
                 position:relative;
                 @include susy-breakpoint($small_screen){
-                    width:70px;
+                    width:60px;
                 }
                 @include susy-breakpoint($iphone_se){
                     width:38px;

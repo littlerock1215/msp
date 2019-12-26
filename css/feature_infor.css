@@ -31,7 +31,7 @@
             width: 76px; } }
         @media (max-width: 400px) {
           .content_block .process_block ul li {
-            width: 70px; } }
+            width: 66px; } }
         .content_block .process_block ul li p.step {
           padding-top: 14px;
           padding-left: 18px; }
@@ -84,7 +84,7 @@
         position: relative; }
         @media (max-width: 530px) {
           .content_block .process_block ul li.circle_4 {
-            width: 70px; } }
+            width: 60px; } }
         @media (max-width: 400px) {
           .content_block .process_block ul li.circle_4 {
             width: 38px; } }

@@ -35,6 +35,10 @@
     .product_img_block{
         width:207px;
         height:206px;
+        @include susy-breakpoint($small_screen){
+            height: 40%;
+            padding-top:30px;
+        }
     }
 }
 .color_block{
@@ -42,7 +46,7 @@
     padding-right:30px;
     ul{
         //height: 374px;
-        height: calc(100% - 300px);
+        height: calc(60% - 100px);
         padding-left: 0;
         overflow: auto;
         overflow-y: scroll;
@@ -63,5 +67,19 @@ list-style:none;
             }
         }
     }
-
+}
+#img_colorpage{
+    @include susy-breakpoint($small_screen){
+        height: 40%;
+        padding-top:30px;
+    }
+}
+#page_finish{
+    @include susy-breakpoint($small_screen){
+        height:100px;
+        a{
+            height:100px;
+            line-height: 100px;
+        }
+    }
 }

@@ -6,12 +6,54 @@
 <div class="container_block clearfix">
     <div class="product_block clearfix" style="margin-top:0">
         <div class="left_block">
-            <div class="product_img_block" style="width:207px;height:206px; padding-top:30px">
+            <div id="photo_phone" class="product_img_block colorpage">
             </div>
             <p style="font-size:12px">實際顏色以本公司出貨為主</p>
         </div>
         <div class="color_block">
             <ul class="style-2">
+                <li>
+                    <p>下座&nbsp;&nbsp;
+                        <span>黑</span>
+                    </p>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                </li>
+                <li>
+                    <p>筒身&nbsp;&nbsp;
+                        <span>黑</span>
+                    </p>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                </li>
+                <li>
+                    <p>上調整鈕&nbsp;&nbsp;
+                        <span>黑</span>
+                    </p>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                    <div class="color_circle2" style="background-color:black;"></div>
+                </li>
                 <li>
                     <p>下座&nbsp;&nbsp;
                         <span>黑</span>
@@ -142,7 +184,7 @@
         </div> -->
     </div>
 
-    <div class="link_block" style="width:100%; position:absolute;padding-bottom:0; bottom:0">
+    <div class="link_block" id="page_finish" style="width:100%; position:absolute;padding-bottom:0; bottom:0">
         <a href="/feature" class="makesure" style="width:100%">完成</a>
     </div>
 </div>
