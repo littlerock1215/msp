@@ -42,7 +42,7 @@
     padding-right:30px;
     ul{
         //height: 374px;
-        height: calc(50% - 150px);
+        height: calc(50% - 250px);
         padding-left: 0;
         overflow: auto;
         overflow-y: scroll;
@@ -57,8 +57,14 @@
             p{
                 font-size:16px;
                 margin-bottom: 24px;
+                @include susy-breakpoint($mid-pad-x){
+                    font-size:32px; 
+                }
                 span{
                     font-size:12px;
+                    @include susy-breakpoint($mid-pad-x){
+                        font-size:28px; 
+                    }
                 }
             }
         }

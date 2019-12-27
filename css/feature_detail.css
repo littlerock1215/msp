@@ -31,7 +31,7 @@
   padding-left: 30px;
   padding-right: 30px; }
   .color_block ul {
-    height: calc(50% - 150px);
+    height: calc(50% - 250px);
     padding-left: 0;
     overflow: auto;
     overflow-y: scroll;
@@ -45,8 +45,14 @@
       .color_block ul li p {
         font-size: 16px;
         margin-bottom: 24px; }
+        @media (max-width: 767px) {
+          .color_block ul li p {
+            font-size: 32px; } }
         .color_block ul li p span {
           font-size: 12px; }
+          @media (max-width: 767px) {
+            .color_block ul li p span {
+              font-size: 28px; } }
 
 @media (max-width: 530px) {
   #img_colorpage {
