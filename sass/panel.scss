@@ -371,6 +371,9 @@
                     span{
                         margin-left: 60px;
                         font-weight: initial;
+                        @include susy-breakpoint($mid-pad-x){
+                            margin-left: 15px;
+                        }
                     }
                     &:hover{
                         border-bottom: 1px solid white;

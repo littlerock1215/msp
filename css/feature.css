@@ -617,17 +617,16 @@ table {
     text-align: center;
     letter-spacing: normal;
     color: white;
-    width: 268px;
-    padding-left: 30px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
+    width: 268px; }
     @media (max-width: 1024px) {
       .link_block a.makesure {
         padding-left: 0;
         padding-right: 50px; } }
-    @media (max-width: 1024px) {
-      .link_block a.makesure img {
-        left: 220px; } }
+    .link_block a.makesure img {
+      left: 220px; }
+      @media (max-width: 1024px) {
+        .link_block a.makesure img {
+          left: 220px; } }
   .link_block a.back_phone {
     display: none; }
     @media (max-width: 1024px) {

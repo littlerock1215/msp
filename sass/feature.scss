@@ -745,13 +745,13 @@
         letter-spacing: normal;
         color: white;
         width: 268px;
-        padding-left: 30px;
-        box-sizing: border-box;
+        //padding-left: 30px;
         @include susy-breakpoint($small_desktop-x){
             padding-left: 0;
             padding-right:50px;
         }
         img{
+            left:220px;
             @include susy-breakpoint($small_desktop-x){
                 left:220px;
             }

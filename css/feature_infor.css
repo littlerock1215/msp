@@ -175,7 +175,10 @@
         width: 209px;
         height: 35px;
         border-radius: 10px;
-        border: solid 1px #000000; }
+        border: solid 1px #000000;
+        padding: 7px 16px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
         .content_block .infor_block .infor_content form input:focus {
           outline: none; }
         @media (max-width: 530px) {
@@ -186,7 +189,10 @@
         height: 245px;
         width: 207px;
         border-radius: 10px;
-        border: solid 1px #000000; }
+        border: solid 1px #000000;
+        padding: 7px 16px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
         .content_block .infor_block .infor_content form textarea:focus {
           outline: none; }
         @media (max-width: 530px) {
