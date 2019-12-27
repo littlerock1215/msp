@@ -1,10 +1,10 @@
 .color_circle2 {
   float: left;
   vertical-align: top;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   border-radius: 100%;
-  margin-right: 15px;
+  margin-right: 20px;
   margin-bottom: 15px; }
   .color_circle2 p {
     position: absolute;

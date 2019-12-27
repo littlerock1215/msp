@@ -316,6 +316,9 @@ header.header {
         display: none; }
         header.header ul.nav_mainpage li ul.submenu.active {
           display: block; }
+          @media (max-width: 1024px) {
+            header.header ul.nav_mainpage li ul.submenu.active {
+              display: none; } }
     header.header ul.nav_mainpage li.product {
       position: relative; }
       header.header ul.nav_mainpage li.product ul {
@@ -331,6 +334,7 @@ header.header {
         padding-bottom: 20px; }
         @media (max-width: 1024px) {
           header.header ul.nav_mainpage li.product ul {
+            display: none;
             top: 30px;
             left: -34px;
             box-shadow: initial;

@@ -177,6 +177,9 @@ header.header{
                 display:none;
                 &.active{
                     display:block;
+                    @include susy-breakpoint($small_desktop-x){
+                        display:none;
+                    }
                 }
             }
         }
@@ -194,6 +197,7 @@ header.header{
                 top: 35px;
                 padding-bottom: 20px;
                 @include susy-breakpoint($small_desktop-x){
+                    display:none;
                     top:30px;
                     left: -34px;
                     box-shadow: initial;
