@@ -152,11 +152,34 @@
             }
         }
 
+        .product_img_block2{
+            width: 393px;
+            height: 497px;
+            background-image: url(../slick/images/img-uf-2@3x.png);
+            background-size: contain;
+            display: block;
+            margin: auto;
+
+            @include susy-breakpoint($desktop-x){
+                //width: 207px;
+                height: 313px;
+                background-size: cover;
+                background-position: 50%;
+                height: 50%;
+                padding-top:40px;
+            }
+            // @include susy-breakpoint($mid-pad-x){
+            //     height: 40%;
+            //     padding-top:30px;
+            // }
+        }
+
         p{
             font-size: 16px;
             color: #f74e4e;
             text-align: center;
             margin-top: 15px;
+            height:20px;
         }
     }
 
@@ -174,7 +197,7 @@
             a.color_phone{
                 display:none;
                 width: 415px;
-                height: 65px;
+                height: 52px;
                 background-color: #e6e6e6;
                 border: none;
                 font-size: 20px;
@@ -341,9 +364,9 @@
                         }
 
                         .select_other_block{
-                            @include susy-breakpoint($desktop-x){
-                                text-align: center;
-                            }
+                            // @include susy-breakpoint($desktop-x){
+                            //     text-align: center;
+                            // }
                             select {
                                 margin-left: 40px;
                                 background: url(../images/dropdown_icon.png) no-repeat;
@@ -523,7 +546,7 @@
 .process_block{
     height:140px;
     width: 400px;
-    margin: 140px auto 0;
+    margin: 110px auto 0;
     @include susy-breakpoint($small_screen){
         width:100%;
         height:140px;

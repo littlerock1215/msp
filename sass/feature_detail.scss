@@ -21,17 +21,13 @@
     }
 }
 .container_block{
-    height: 100%;
     overflow: hidden;
     position:relative;
-
-    position: fixed;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: 999;
-    overflow: auto;
     .product_img_block{
         width:207px;
         height:206px;
@@ -46,7 +42,7 @@
     padding-right:30px;
     ul{
         //height: 374px;
-        height: calc(60% - 100px);
+        height: calc(50% - 150px);
         padding-left: 0;
         overflow: auto;
         overflow-y: scroll;
@@ -57,10 +53,10 @@
             border: 1px solid #e6e6e6;
             height:140px;
             padding:10px 10px 10px;
-            
-list-style:none;
+            list-style:none;
             p{
                 font-size:16px;
+                margin-bottom: 24px;
                 span{
                     font-size:12px;
                 }

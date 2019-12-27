@@ -158,11 +158,26 @@ table {
           height: 313px;
           background-size: cover;
           background-position: 35%; } }
+    .product_block .left_block .product_img_block2 {
+      width: 393px;
+      height: 497px;
+      background-image: url(../slick/images/img-uf-2@3x.png);
+      background-size: contain;
+      display: block;
+      margin: auto; }
+      @media (max-width: 1139px) {
+        .product_block .left_block .product_img_block2 {
+          height: 313px;
+          background-size: cover;
+          background-position: 50%;
+          height: 50%;
+          padding-top: 40px; } }
     .product_block .left_block p {
       font-size: 16px;
       color: #f74e4e;
       text-align: center;
-      margin-top: 15px; }
+      margin-top: 15px;
+      height: 20px; }
   .product_block .right_block {
     float: left;
     width: 50%; }
@@ -174,7 +189,7 @@ table {
     .product_block .right_block .product_style_block a.color_phone {
       display: none;
       width: 415px;
-      height: 65px;
+      height: 52px;
       background-color: #e6e6e6;
       border: none;
       font-size: 20px;
@@ -307,9 +322,6 @@ table {
           @media (max-width: 1139px) {
             .product_block .right_block .product_style_block ul li .other_block {
               width: 100%; } }
-          @media (max-width: 1139px) {
-            .product_block .right_block .product_style_block ul li .other_block .select_other_block {
-              text-align: center; } }
           .product_block .right_block .product_style_block ul li .other_block .select_other_block select {
             margin-left: 40px;
             background: url(../images/dropdown_icon.png) no-repeat;
@@ -435,7 +447,7 @@ table {
 .process_block {
   height: 140px;
   width: 400px;
-  margin: 140px auto 0; }
+  margin: 110px auto 0; }
   @media (max-width: 530px) {
     .process_block {
       width: 100%;

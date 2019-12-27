@@ -12,16 +12,13 @@
     left: 5px; }
 
 .container_block {
-  height: 100%;
   overflow: hidden;
   position: relative;
-  position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  z-index: 999;
-  overflow: auto; }
+  z-index: 999; }
   .container_block .product_img_block {
     width: 207px;
     height: 206px; }
@@ -34,7 +31,7 @@
   padding-left: 30px;
   padding-right: 30px; }
   .color_block ul {
-    height: calc(60% - 100px);
+    height: calc(50% - 150px);
     padding-left: 0;
     overflow: auto;
     overflow-y: scroll;
@@ -46,7 +43,8 @@
       padding: 10px 10px 10px;
       list-style: none; }
       .color_block ul li p {
-        font-size: 16px; }
+        font-size: 16px;
+        margin-bottom: 24px; }
         .color_block ul li p span {
           font-size: 12px; }
 

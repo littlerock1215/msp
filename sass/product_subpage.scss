@@ -145,9 +145,12 @@
             margin-top: 38px;
             color: black;
             
-            background:url(../images/icon-move-m@2x.png) no-repeat;
+            background:url(../images/icon-move-s@2x.png) no-repeat;
             background-size:13px 26px;
             background-position: 197px 18px;
+            @include susy-breakpoint(('max-width':722px)){
+                margin: 38px auto 0;
+            }
             @include susy-breakpoint($small_screen){
                 margin-top: 15px;
             }

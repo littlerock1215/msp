@@ -8,7 +8,7 @@
                 <a href="/news">最新消息</a>
             </li>
             <li>
-                <a href="/product">產品資訊</a>
+                <a href="/product?type=1">產品資訊</a>
             </li>
             <li>
                 <a href="/promotebase">經銷據點</a>

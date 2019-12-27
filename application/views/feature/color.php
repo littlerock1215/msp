@@ -6,9 +6,9 @@
 <div class="container_block clearfix">
     <div class="product_block clearfix" style="margin-top:0">
         <div class="left_block">
-            <div id="photo_phone" class="product_img_block colorpage">
+            <div id="photo_phone" class="product_img_block2 colorpage">
             </div>
-            <p style="font-size:12px">實際顏色以本公司出貨為主</p>
+            <p>實際顏色以本公司出貨為主</p>
         </div>
         <div class="color_block">
             <ul class="style-2">
